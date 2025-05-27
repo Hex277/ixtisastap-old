@@ -19,14 +19,19 @@ fetch(jsonFile)
 
     // Buraya əlavə et:
     window.addEventListener('resize', () => {
-      renderData(globalData);
+      const filters = getCurrentFilters();
+      const filtered = filterData(globalData, filters);
+      renderData(filtered);
       setupEventListeners();
     });
-
+    
     window.addEventListener('orientationchange', () => {
-      renderData(globalData);
+      const filters = getCurrentFilters();
+      const filtered = filterData(globalData, filters);
+      renderData(filtered);
       setupEventListeners();
     });
+    
   })
   .catch(error => {
     console.error('Error loading data:', error);
@@ -252,3 +257,34 @@ function toggleMore(link) {
   link.innerText = isVisible ? "Daha çox" : "Daha az";
 }
 
+function getCurrentFilters() {
+  const query = document.getElementById("search").value.toLowerCase();
+  const selectedTehsil = document.getElementById("tehsilSelect").value;
+  const selectedDil = document.getElementById("dilSelect").value;
+  const selectedAlt = document.getElementById("altSelect").value;
+  const selectedLocation = document.getElementById("locationSelect").value;
+
+  return { query, selectedTehsil, selectedDil, selectedAlt, selectedLocation };
+}
+
+function filterData(data, filters) {
+  const { query, selectedTehsil, selectedDil, selectedAlt, selectedLocation } = filters;
+
+  return data.map(qrup => {
+    const filteredUniversitetler = qrup.universitetler.map(uni => {
+      const matchedIxtisaslar = uni.ixtisaslar.filter(ixt => {
+        const nameMatch = ixt.ad.toLowerCase().includes(query);
+        const tehsilMatch = !selectedTehsil || ixt.tehsil_formasi === selectedTehsil;
+        const dilMatch = !selectedDil || ixt.dil === selectedDil;
+        const altMatch = !selectedAlt || ixt.alt_qrup === selectedAlt;
+        const locationMatch = !selectedLocation || uni.yer === selectedLocation;
+
+        return nameMatch && tehsilMatch && dilMatch && altMatch && locationMatch;
+      });
+
+      return matchedIxtisaslar.length > 0 ? { ...uni, ixtisaslar: matchedIxtisaslar } : null;
+    }).filter(Boolean);
+
+    return filteredUniversitetler.length > 0 ? { ...qrup, universitetler: filteredUniversitetler } : null;
+  }).filter(Boolean);
+}
