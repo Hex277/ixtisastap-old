@@ -5,7 +5,6 @@ const jsonFile = `qrup${groupNumber}.json`;
 
 let globalData = [];
 
-
 fetch(jsonFile)
   .then(response => {
     if (!response.ok) {
@@ -92,14 +91,15 @@ document.addEventListener('click', function(event) {
     menuContent.classList.add('hidden');
   }
 });
-tableContainer.innerHTML = "";
-cardContainer.innerHTML = "";
 
 function renderData(data) {
   const tableContainer = document.getElementById('table-container');
   const cardContainer = document.getElementById('card-container');
   
   const isMobile = window.innerWidth <= 768;
+
+  tableContainer.innerHTML = "";
+  cardContainer.innerHTML = "";
 
   if (isMobile) {
     let htmlCard = '';
@@ -222,27 +222,25 @@ function applyFilters() {
 const toggleBtn = document.getElementById('toggle-dark-mode');
 const toggleIcon = document.getElementById('icon');
 
-// Sayt açılarkən əvvəlki rejimi yoxla
+// Sayt yüklənəndə əvvəlki rejimi yoxla
 if (localStorage.getItem('darkMode') === 'enabled') {
   document.body.classList.add('dark-mode');
-  toggleIcon.src = "sun.png"; // Qaranlıq rejimdə ay ikonu
+  toggleIcon.src = "moon.png";
 } else {
   document.body.classList.remove('dark-mode');
-  toggleIcon.src = "moon.png"; // İşıqlı rejimdə günəş ikonu
+  toggleIcon.src = "sun.png";
 }
 
-// Kliklə rejimi dəyiş
 toggleBtn.addEventListener('click', () => {
   document.body.classList.toggle('dark-mode');
   if (document.body.classList.contains('dark-mode')) {
     localStorage.setItem('darkMode', 'enabled');
-    toggleIcon.src = "sun.png"; // Qaranlıq rejim – ay
+    toggleIcon.src = "sun.png";
   } else {
     localStorage.setItem('darkMode', 'disabled');
-    toggleIcon.src = "moon.png"; // İşıqlı rejim – günəş
+    toggleIcon.src = "moon.png";
   }
 });
-
 
 
 function toggleMore(link) {
@@ -253,3 +251,4 @@ function toggleMore(link) {
   extraInfo.style.display = isVisible ? "none" : "block";
   link.innerText = isVisible ? "Daha çox" : "Daha az";
 }
+
