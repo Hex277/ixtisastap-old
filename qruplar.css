@@ -1,0 +1,484 @@
+
+
+/* ==============================
+   ÜMUMİ STİLLƏR
+============================== */
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  color: #222;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, .qrup-basliq, .uni-basliq {
+  text-align: center;
+  color: #222;
+
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+.qrup-basliq {
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.uni-basliq {
+  margin-top: 40px;
+  font-size: 18px;
+  color: #007BFF;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  table-layout: fixed;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  word-wrap: break-word;
+  font-size: 15px;
+}
+
+th {
+  background-color: #007BFF;
+  color: white;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+tr.even-row {
+  background-color: #e2f1ff;
+}
+.toggle-more {
+  display: inline-block;
+  padding: 2px 6px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #007BFF;
+}
+
+
+
+/* ==============================
+   FILTER BAR
+============================== */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 25px;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* required for absolute positioning inside */
+  padding-bottom: 30px; /* space for #resultCount */
+  background-color: transparent;
+  z-index: 998;
+}
+
+
+input[type="text"],
+select {
+  padding: 10px;
+  font-size: 15px;
+  border: 2px solid #4a90e2;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  width: auto;
+}
+
+input[type="text"]:focus,
+select:focus {
+  border-color: #1e62d0;
+  outline: none;
+}
+
+#search {
+  position: relative;
+}
+select {
+  width: 200px;
+  cursor: pointer;
+}
+
+select:hover {
+  border-color: #1e62d0;
+}
+#resultCount {
+  position: relative;
+  left: 10px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+
+/* ==============================
+   BUTTON STİLİ
+============================== */
+button {
+  padding: 10px 20px;
+  font-size: 15px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1e62d0;
+}
+
+/* ==============================
+   MENYU STİLİ
+============================== */
+#menu-toggle {
+  position: absolute;
+  top: 3px;
+  left: -4px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#menu-toggle img {
+  width: 38px;
+  height: 36px;
+  background: white;
+  border-radius: 10px;
+}
+
+#menu-bar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 10px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 999;
+  height: 100%;
+  width: 60%;
+}
+#name-text {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 26px;
+  color: #1E90FF; 
+  text-align: center;
+  margin-top: 20px;
+}
+
+#menu-bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-top: 10%;
+}
+
+#menu-bar li {
+  margin-bottom: 10px;
+}
+#menu-bar a {
+  display: block;                /* Makes it behave like a block/button */
+  width: 100%;                   /* Make all links same width */
+  padding: 5px 0;               /* Padding for height */
+  background-color: transparent;     /* Button color */
+  color: black;                  /* Text color */
+  text-align: left;            /* Center text */
+  border: none;
+  border-radius: 6px;            /* Rounded corners */
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  transition: background-color 0.3s, transform 0.2s;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+#menu-bar a:hover {
+  transform: scale(1.02);        /* Slight zoom on hover */
+}
+
+
+.hidden {
+  display: none;
+}
+
+/* ==============================
+   DARK MODE
+============================== */
+body.dark-mode {
+  background: #121212;
+  color: #eee;
+}
+
+body.dark-mode h1,
+body.dark-mode .qrup-basliq,
+body.dark-mode .uni-basliq {
+  color: #aad4ff;
+}
+
+body.dark-mode table {
+  background: #1e1e1e;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+body.dark-mode th {
+  background-color: #2d5c99;
+  color: #f1f1f1;
+}
+
+body.dark-mode td {
+  border-bottom: 1px solid #444;
+  color: #ccc;
+}
+
+body.dark-mode tr:hover {
+  background-color: #2c2c2c;
+}
+
+body.dark-mode tr.even-row {
+  background-color: #2a2a2a;
+}
+
+body.dark-mode input[type="text"],
+body.dark-mode select {
+  background-color: #222;
+  color: #eee;
+  border: 2px solid #555;
+}
+
+body.dark-mode button {
+  background-color: #2d5c99;
+  color: #eee;
+}
+
+body.dark-mode button:hover {
+  background-color: #555;
+}
+
+body.dark-mode #menu-bar {
+  background-color: #333;
+  border-color: #555;
+}
+
+body.dark-mode #menu-bar a {
+  color: #fff;
+}
+
+body.dark-mode #menu-bar a:hover {
+  color: #00aced;
+}
+/* ==============================
+   ScrollBtn
+============================== */
+#scrollTopBtn {
+  position: fixed;
+  bottom: 15px;
+  right: 10px;
+  padding: 9px 11px;
+  background-color: #1E90FF;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  display: none;
+  transition: opacity 0.3s ease;
+}
+
+#scrollTopBtn.show {
+  display: block;
+}
+#scroll-up {
+  margin-top: 0px;
+  filter: invert(1);
+}
+
+/* ==============================
+   DARK MODE DÜYMƏSİ
+============================== */
+
+#toggle-dark-mode img {
+  margin-top: 3px;
+}
+#toggle-dark-mode:hover {
+  background-color: #1E90FF;
+}
+
+.white-icon {
+  filter: invert(100%);
+}
+
+
+/* ==============================
+   RESPONSIVE STİLLƏR
+============================== */
+/* DESKTOP THEME */
+@media (min-width: 769px) {
+  #toggle-dark-mode {
+    position: fixed;
+    top: 13px;
+    right: 15px;
+    padding: 4px 10px;
+    background-color: #1E90FF;
+    color: white;
+    width: 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+  }
+  .main-content {
+    position: fixed;
+    margin-left: 200px; /* Same width as your menu bar */
+    padding: 10px;       /* Optional: adds spacing */
+    top: -30px;
+  }
+  #resultCount {
+    position: absolute;
+    margin-top: 90px;
+  }
+
+  #table-container {
+    position: absolute;
+    display: block;
+    top: 220px;
+    padding-right: 10px;
+  }
+
+  #card-container {
+    display: none;
+  }
+  #menu-toggle {
+    display: none; /* Hide menu button on desktop */
+    position: absolute;
+  }
+
+  #menu-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 180px;
+    display: block !important;
+  }
+
+}
+
+/* MOBILE THEME */
+@media (max-width: 768px) {
+  #toggle-dark-mode {
+    position: absolute;
+    top: 13px;
+    right: 15px;
+    padding: 4px 10px;
+    background-color: #1E90FF;
+    color: white;
+    width: 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+  }
+  #table-container {
+    display: none;
+  }
+
+  #card-container {
+    display: block;
+    margin-top: -70px;
+  }
+
+  .filter-bar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .filter-bar > * {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .card {
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .card h3 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #333;
+  }
+
+  .card .field {
+    margin-bottom: 6px;
+    font-size: 14px;
+  }
+
+  .card #ixtisasad {
+    color: rgb(1, 1, 2);
+    font-size: 15px;
+  }
+
+  body.dark-mode .card {
+    background: #1e1e1e;
+    border: 1px solid #333;
+    color: #ddd;
+  }
+
+  body.dark-mode .card .field,
+  body.dark-mode .card #ixtisasad {
+    color: #ccc;
+  }
+  #menu-toggle {
+    display: block;
+  }
+
+  #menu-bar {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    transition: left 0.3s ease;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+}
+
+/* filter-panel üçün stil */
+.filter-panel {
+  margin-top: 10px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+
+/* gizlətmək üçün sinif */
+.hidden {
+  display: none;
+}

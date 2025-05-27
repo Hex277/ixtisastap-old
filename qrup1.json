@@ -1,0 +1,3884 @@
+[
+    {
+        "qrup": "1",
+        "universitetler": [
+            {
+                "universitet": "Bakı Dövlət Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Fizika müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 387.2,
+                        "bal_pullu": 387.2
+                    },
+                    {
+                        "ad": "Fizika müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 427.4,
+                        "bal_pullu": 427.4
+                    },
+                    {
+                        "ad": "Informatika müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 307.3,
+                        "bal_pullu": 307.3
+                    },
+                    {
+                        "ad": "Riyaziyyat müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 544.7,
+                        "bal_pullu": 544.7
+                    },
+                    {
+                        "ad": "Riyaziyyat müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 629.7,
+                        "bal_pullu": 629.7
+                    },
+                    {
+                        "ad": "Fizika",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 312.3,
+                        "bal_pullu": 312.3
+                    },
+                    {
+                        "ad": "Fizika",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 333.7,
+                        "bal_pullu": 333.7
+                    },
+                    {
+                        "ad": "Geologiya",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 223.3,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Kompüter elmləri",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 414.8,
+                        "bal_pullu": 414.8
+                    },
+                    {
+                        "ad": "Kompüter elmləri",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 525.1,
+                        "bal_pullu": 525.1
+                    },
+                    {
+                        "ad": "Mexanika",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 285.4,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Riyaziyyat",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 422.8,
+                        "bal_pullu": 422.8
+                    },
+                    {
+                        "ad": "Riyaziyyat",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 513.9,
+                        "bal_pullu": 513.9
+                    },
+                    {
+                        "ad": "Ekologiya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 272.2,
+                        "bal_pullu": 269.4
+                    },
+                    {
+                        "ad": "Geologiya və geofizika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 230.0,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Geologiya və geofizika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 248.0,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Geomatika və geodeziya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 216.5,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya təhlükəsizliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 552.5,
+                        "bal_pullu": 552.5
+                    },
+                    {
+                        "ad": "Kimya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 437.1,
+                        "bal_pullu": 417.7
+                    },
+                    {
+                        "ad": "Kimya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 513.6,
+                        "bal_pullu": 513.6
+                    },
+                    {
+                        "ad": "Mədən mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 208.9,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Meliorasiya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 265.8,
+                        "bal_pullu": 256.5
+                    },
+                    {
+                        "ad": "Mühəndis fizikası",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 268.3,
+                        "bal_pullu": 268.3
+                    },
+                    {
+                        "ad": "Qida mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 366.9,
+                        "bal_pullu": 366.9
+                    },
+                    {
+                        "ad": "Torpaqşünaslıq və aqrokimya",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 267.2,
+                        "bal_pullu": 267.2
+                    },
+                    {
+                        "ad": "Yerquruluşu və daşınmaz əmlakın kadastrı",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 290.6,
+                        "bal_pullu": 290.6
+                    },
+                    {
+                        "ad": "Yerquruluşu və daşınmaz əmlakın kadastrı",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 255.4,
+                        "bal_pullu": 255.0
+                    },
+                    {
+                        "ad": "Fizika müəllimliyi (Qazax filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 417.8,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Riyaziyyat müəllimliyi (Qazax filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 535.5,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Riyaziyyat və informatika müəllimliyi (Qazax filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 308.4,
+                        "bal_pullu": 200.0
+                    }
+                ]
+            },
+            {
+                "universitet": "Azərbaycan Dövlət Neft və Sənaye Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Geologiya",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 226.1,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Kompüter elmləri",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 452.8,
+                        "bal_pullu": 452.8
+                    },
+                    {
+                        "ad": "Kompüter elmləri",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 561.2,
+                        "bal_pullu": 561.2
+                    },
+                    {
+                        "ad": "Cihaz mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 201.5,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Cihaz mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 321.0,
+                        "bal_pullu": 321.0
+                    },
+                    {
+                        "ad": "Ekologiya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 259.9,
+                        "bal_pullu": 259.9
+                    },
+                    {
+                        "ad": "Ekologiya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 289.9,
+                        "bal_pullu": 287.7
+                    },
+                    {
+                        "ad": "Elektrik və elektronika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 301.0,
+                        "bal_pullu": 301.0
+                    },
+                    {
+                        "ad": "Elektrik və elektronika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 435.1,
+                        "bal_pullu": 435.1
+                    },
+                    {
+                        "ad": "Energetika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 275.6,
+                        "bal_pullu": 275.6
+                    },
+                    {
+                        "ad": "Energetika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 404.1,
+                        "bal_pullu": 404.1
+                    },
+                    {
+                        "ad": "Geologiya və geofizika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 203.7,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Geologiya və geofizika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 261.1,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Həyat fəaliyyətinin təhlükəsizliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 206.4,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya təhlükəsizliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 539.7,
+                        "bal_pullu": 539.7
+                    },
+                    {
+                        "ad": "Informasiya təhlükəsizliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 606.5,
+                        "bal_pullu": 606.5
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 513.0,
+                        "bal_pullu": 513.0
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 588.6,
+                        "bal_pullu": 588.6
+                    },
+                    {
+                        "ad": "Inşaat mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 313.1,
+                        "bal_pullu": 313.1
+                    },
+                    {
+                        "ad": "Inşaat mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 352.6,
+                        "bal_pullu": 352.6
+                    },
+                    {
+                        "ad": "Kimya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 441.1,
+                        "bal_pullu": 441.1
+                    },
+                    {
+                        "ad": "Kimya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 626.3,
+                        "bal_pullu": 626.3
+                    },
+                    {
+                        "ad": "Kompüter mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 451.4,
+                        "bal_pullu": 451.4
+                    },
+                    {
+                        "ad": "Kompüter mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 549.4,
+                        "bal_pullu": 549.4
+                    },
+                    {
+                        "ad": "Logistika və nəqliyyat texnologiyaları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 331.7,
+                        "bal_pullu": 331.7
+                    },
+                    {
+                        "ad": "Logistika və nəqliyyat texnologiyaları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 423.3,
+                        "bal_pullu": 423.3
+                    },
+                    {
+                        "ad": "Maşın mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 203.7,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Materiallar mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 225.2,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Mədən mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 218.8,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Mexanika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 213.3,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Mexanika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 324.0,
+                        "bal_pullu": 324.0
+                    },
+                    {
+                        "ad": "Mexatronika və robototexnika",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 336.4,
+                        "bal_pullu": 261.8
+                    },
+                    {
+                        "ad": "Mexatronika və robototexnika",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 395.2,
+                        "bal_pullu": 395.2
+                    },
+                    {
+                        "ad": "Mühəndis fizikası",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 203.6,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Neft-qaz mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 477.3,
+                        "bal_pullu": 477.3
+                    },
+                    {
+                        "ad": "Neft-qaz mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 618.1,
+                        "bal_pullu": 618.1
+                    },
+                    {
+                        "ad": "Proseslərin avtomatlaşdırılması",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 336.5,
+                        "bal_pullu": 336.5
+                    },
+                    {
+                        "ad": "Proseslərin avtomatlaşdırılması",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 446.6,
+                        "bal_pullu": 446.6
+                    },
+                    {
+                        "ad": "Qida mühəndisliyi “",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 340.6,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Qida mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 371.4,
+                        "bal_pullu": 371.4
+                    },
+                    {
+                        "ad": "Radiotexnika və telekommunikasiya",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 224.5,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Radiotexnika və telekommunikasiya",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 257.9,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Sənaye mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 307.6,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Sənaye mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 526.2,
+                        "bal_pullu": 526.2
+                    }
+                ]
+            },
+            {
+                "universitet": "Azərbaycan Texniki Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Hərbi kompozisiya materialları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 212.9,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Hərbi rabitə vasitələri mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 221.8,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Optotexnika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Pirotexniki və partladıcı vasitələr",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Silah və silah sistemləri mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 207.6,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Sistemlər mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 338.9,
+                        "bal_pullu": 338.9
+                    },
+                    {
+                        "ad": "Kompüter elmləri",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 507.2,
+                        "bal_pullu": 507.2
+                    },
+                    {
+                        "ad": "Kompüter elmləri",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 399.3,
+                        "bal_pullu": 399.3
+                    },
+                    {
+                        "ad": "Aerokosmik mühəndislik",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 233.2,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Cihaz mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 211.8,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Ekologiya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 251.6,
+                        "bal_pullu": 248.3
+                    },
+                    {
+                        "ad": "Elektrik və elektronika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 391.1,
+                        "bal_pullu": 391.1
+                    },
+                    {
+                        "ad": "Elektrik və elektronika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 232.5,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Energetika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 206.1,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Həyat fəaliyyətinin təhlükəsizliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 205.5,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya təhlükəsizliyi",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 442.4,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya təhlükəsizliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 561.9,
+                        "bal_pullu": 561.9
+                    },
+                    {
+                        "ad": "Informasiya təhlükəsizliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 477.9,
+                        "bal_pullu": 477.9
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 239.2,
+                        "bal_pullu": 238.0
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 551.1,
+                        "bal_pullu": 551.1
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 435.8,
+                        "bal_pullu": 435.6
+                    },
+                    {
+                        "ad": "Kimya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 438.6,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Kompüter mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 606.1,
+                        "bal_pullu": 606.1
+                    },
+                    {
+                        "ad": "Kompüter mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 542.6,
+                        "bal_pullu": 542.6
+                    },
+                    {
+                        "ad": "Kompüter mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 392.9,
+                        "bal_pullu": 392.9
+                    },
+                    {
+                        "ad": "Logistika və nəqliyyat texnologiyaları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 270.5,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Maşın mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 223.6,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Materiallar mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Mədən mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Metallurgiya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 261.1,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Mexanika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 212.4,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Mexatronika və robototexnika",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 336.3,
+                        "bal_pullu": 251.6
+                    },
+                    {
+                        "ad": "Mühəndis fizikası",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 209.1,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Nəqliyyat mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 214.5,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Proseslərin avtomatlaşdırılması",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 331.7,
+                        "bal_pullu": 331.4
+                    },
+                    {
+                        "ad": "Qida mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 340.5,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Radiotexnika və telekommunikasiya",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 256.4,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Radiotexnika və telekommunikasiya",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 215.6,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Sənaye mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 307.9,
+                        "bal_pullu": 200.0
+                    }
+                ]
+            },
+            {
+                "universitet": "Azərbaycan Memarlıq və İnşaat Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Ekologiya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 242.7,
+                        "bal_pullu": 242.4
+                    },
+                    {
+                        "ad": "Ekologiya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 300.8,
+                        "bal_pullu": 265.7
+                    },
+                    {
+                        "ad": "Elektrik və elektronika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 232.9,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Elektrik və elektronika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 302.5,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Geomatika və geodeziya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 235.1,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Həyat fəaliyyətinin təhlükəsizliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 245.4,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya təhlükəsizliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 425.1,
+                        "bal_pullu": 425.1
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 385.2,
+                        "bal_pullu": 385.2
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 218.6,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 492.7,
+                        "bal_pullu": 492.7
+                    },
+                    {
+                        "ad": "Inşaat mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 413.9,
+                        "bal_pullu": 413.9
+                    },
+                    {
+                        "ad": "Inşaat mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 323.3,
+                        "bal_pullu": 323.3
+                    },
+                    {
+                        "ad": "Inşaat mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 309.1,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Kommunikasiya sistemləri",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 297.7,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Kommunikasiya sistemləri",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 224.5,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Logistika və nəqliyyat texnologiyaları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 269.4,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Maşın mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 203.0,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Materiallar mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 304.3,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Meliorasiya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 235.0,
+                        "bal_pullu": 232.7
+                    },
+                    {
+                        "ad": "Mexanika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 236.9,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Neft-qaz mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 424.5,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Nəqliyyat mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 225.3,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Nəqliyyat tikintisi mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 211.4,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Proseslərin avtomatlaşdırılması",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 323.9,
+                        "bal_pullu": 285.9
+                    },
+                    {
+                        "ad": "Şəhərsalma",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 234.2,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Sənaye mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 311.0,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Yerquruluşu və daşınmaz əmlakın",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 269.4,
+                        "bal_pullu": 269.4
+                    },
+                    {
+                        "ad": "Yerquruluşu və daşınmaz əmlakın",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 250.6,
+                        "bal_pullu": 235.7
+                    },
+                    {
+                        "ad": "Memarlıq",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 310.0,
+                        "bal_pullu": 310.0
+                    },
+                    {
+                        "ad": "Memarlıq dilində)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 483.3,
+                        "bal_pullu": 483.3
+                    }
+                ]
+            },
+            {
+                "universitet": "Azərbaycan Dövlət Pedaqoji Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Fizika müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 369.1,
+                        "bal_pullu": 315.4
+                    },
+                    {
+                        "ad": "Fizika müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 369.0,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informatika müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 288.4,
+                        "bal_pullu": 285.9
+                    },
+                    {
+                        "ad": "Informatika müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 288.2,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Riyaziyyat müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 499.7,
+                        "bal_pullu": 367.8
+                    },
+                    {
+                        "ad": "Riyaziyyat müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 515.9,
+                        "bal_pullu": 515.9
+                    },
+                    {
+                        "ad": "Riyaziyyat və informatika müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 427.1,
+                        "bal_pullu": 427.1
+                    },
+                    {
+                        "ad": "Texnologiya müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 249.4,
+                        "bal_pullu": 231.9
+                    },
+                    {
+                        "ad": "Fizika müəllimliyi (Şamaxı filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 432.6,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Riyaziyyat və informatika müəllimliyi (Şamaxı filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 309.9,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informatika müəllimliyi (Şəki filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 312.7,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Riyaziyyat və informatika müəllimliyi (Şəki filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 306.1,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Fizika müəllimliyi (Ağcabədi filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 489.8,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Riyaziyyat müəllimliyi (Ağcabədi filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Riyaziyyat və informatika müəllimliyi (Ağcabədi filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 306.1,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Riyaziyyat müəllimliyi (Quba filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 504.2,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Riyaziyyat və informatika müəllimliyi (Quba filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 308.3,
+                        "bal_pullu": 235.2
+                    }
+                ]
+            },
+            {
+                "universitet": "Azərbaycan Dövlət İqtisad Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Kompüter elmləri",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 587.4,
+                        "bal_pullu": 587.4
+                    },
+                    {
+                        "ad": "Ekologiya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 306.2,
+                        "bal_pullu": 306.2
+                    },
+                    {
+                        "ad": "Elektrik və elektronika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 415.8,
+                        "bal_pullu": 415.8
+                    },
+                    {
+                        "ad": "Informasiya təhlükəsizliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 622.4,
+                        "bal_pullu": 622.4
+                    },
+                    {
+                        "ad": "Informasiya təhlükəsizliyi",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 394.8,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya təhlükəsizliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 658.5,
+                        "bal_pullu": 658.5
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 610.6,
+                        "bal_pullu": 610.6
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 215.6,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 647.2,
+                        "bal_pullu": 647.2
+                    },
+                    {
+                        "ad": "Kommunikasiya sistemləri mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 438.4,
+                        "bal_pullu": 438.4
+                    },
+                    {
+                        "ad": "Kompüter mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 584.8,
+                        "bal_pullu": 584.8
+                    },
+                    {
+                        "ad": "Kompüter mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 636.8,
+                        "bal_pullu": 636.8
+                    },
+                    {
+                        "ad": "Maşın mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 265.9,
+                        "bal_pullu": 265.9
+                    },
+                    {
+                        "ad": "Materiallar mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 222.9,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Qida mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 371.2,
+                        "bal_pullu": 371.2
+                    },
+                    {
+                        "ad": "Qida mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 433.5,
+                        "bal_pullu": 433.5
+                    },
+                    {
+                        "ad": "Sənaye mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 367.2,
+                        "bal_pullu": 367.2
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları (Zaqatala filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 239.5,
+                        "bal_pullu": 200.0
+                    }
+                ]
+            },
+            {
+                "universitet": "Bakı Mühəndislik Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Fizika dilində)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 291.7,
+                        "bal_pullu": 250.0
+                    },
+                    {
+                        "ad": "Kompüter elmləri",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 386.1,
+                        "bal_pullu": 386.1
+                    },
+                    {
+                        "ad": "Kompüter elmləri",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 507.4,
+                        "bal_pullu": 507.4
+                    },
+                    {
+                        "ad": "Riyaziyyat dilində)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 328.9,
+                        "bal_pullu": 250.0
+                    },
+                    {
+                        "ad": "Ekologiya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 245.7,
+                        "bal_pullu": 237.5
+                    },
+                    {
+                        "ad": "Ekologiya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 277.6,
+                        "bal_pullu": 247.6
+                    },
+                    {
+                        "ad": "Elektrik və elektronika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 237.9,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Elektrik və elektronika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 271.3,
+                        "bal_pullu": 271.3
+                    },
+                    {
+                        "ad": "Energetika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 227.9,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya təhlükəsizliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 497.9,
+                        "bal_pullu": 497.9
+                    },
+                    {
+                        "ad": "Informasiya təhlükəsizliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 595.8,
+                        "bal_pullu": 595.8
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 435.1,
+                        "bal_pullu": 435.1
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 346.6,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 568.5,
+                        "bal_pullu": 568.5
+                    },
+                    {
+                        "ad": "Inşaat mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 312.7,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Inşaat mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 312.3,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Kimya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 440.1,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Kimya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 534.7,
+                        "bal_pullu": 534.7
+                    },
+                    {
+                        "ad": "Kommunikasiya sistemləri mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 229.1,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Kompüter mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 403.9,
+                        "bal_pullu": 403.9
+                    },
+                    {
+                        "ad": "Kompüter mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 506.0,
+                        "bal_pullu": 506.0
+                    },
+                    {
+                        "ad": "Logistika və nəqliyyat texnologiyaları mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 269.3,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Logistika və nəqliyyat texnologiyaları mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 270.4,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Maşın mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Memarlıq",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 303.6,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Memarlıq dilində)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 317.3,
+                        "bal_pullu": 317.3
+                    },
+                    {
+                        "ad": "Mexanika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 223.4,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Mexanika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 252.7,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Mexatronika və robototexnika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 339.3,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Nəqliyyat mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Nəqliyyat tikintisi mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 384.4,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Proseslərin avtomatlaşdırılması mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 324.4,
+                        "bal_pullu": 297.2
+                    },
+                    {
+                        "ad": "Proseslərin avtomatlaşdırılması mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 353.5,
+                        "bal_pullu": 353.5
+                    },
+                    {
+                        "ad": "Qida mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 343.8,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Radiotexnika və telekommunikasiya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 243.4,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Şəhərsalma",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 219.7,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Sənaye mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 312.4,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Sənaye mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 342.1,
+                        "bal_pullu": 342.1
+                    },
+                    {
+                        "ad": "Şərabçılıq",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 225.9,
+                        "bal_pullu": 225.9
+                    },
+                    {
+                        "ad": "Şərabçılıq",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 197.8,
+                        "bal_pullu": 192.2
+                    }
+                ]
+            },
+            {
+                "universitet": "Azərbaycan Respublikası Prezidenti yanında Dövlət İdarəçilik Akademiyası",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Kompüter elmləri",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 590.0,
+                        "bal_pullu": 590.0
+                    }
+                ]
+            },
+            {
+                "universitet": "ADA Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Kompüter elmləri",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 652.5
+                    },
+                    {
+                        "ad": "Riyaziyyat dilində)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 660.1
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 626.6
+                    },
+                    {
+                        "ad": "Kompüter mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 618.2
+                    }
+                ]
+            },
+            {
+                "universitet": "İtaliya-Azərbaycan Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Memarlıq dilində)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 553.2
+                    },
+                    {
+                        "ad": "Qida mühəndisliyi, Qida texnologiyaları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 468.7
+                    },
+                    {
+                        "ad": "Aqronomluq (aqrartexnologiyalar,",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 300.0
+                    },
+                    {
+                        "ad": "Elektrik və elektronika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 516.8
+                    }
+                ]
+            },
+            {
+                "universitet": "Azərbaycan Dövlət Rəssamlıq Akademiyası",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Memarlıq",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 304.3,
+                        "bal_pullu": 238.5
+                    }
+                ]
+            },
+            {
+                "universitet": "Azərbaycan Turizm və Menecment Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Qida mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    }
+                ]
+            },
+            {
+                "universitet": "Milli Aviasiya Akademiyası",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Aerokosmik mühəndislik",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 348.6,
+                        "bal_pullu": 348.6
+                    },
+                    {
+                        "ad": "Aerokosmik mühəndislik",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 401.4,
+                        "bal_pullu": 401.4
+                    },
+                    {
+                        "ad": "Aviasiya təhlükəsizliyi mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 389.8,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Aviasiya təhlükəsizliyi mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 394.4,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Cihaz mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 330.6,
+                        "bal_pullu": 330.6
+                    },
+                    {
+                        "ad": "Cihaz mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 285.7,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Ekologiya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 271.4,
+                        "bal_pullu": 271.4
+                    },
+                    {
+                        "ad": "Elektrik və elektronika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 318.9,
+                        "bal_pullu": 318.9
+                    },
+                    {
+                        "ad": "Energetika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 301.7,
+                        "bal_pullu": 301.7
+                    },
+                    {
+                        "ad": "Hava nəqliyyatının hərəkətinin təşkili",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 287.6,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 423.9,
+                        "bal_pullu": 423.9
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 501.7,
+                        "bal_pullu": 501.7
+                    },
+                    {
+                        "ad": "Kompüter mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 392.3,
+                        "bal_pullu": 392.3
+                    },
+                    {
+                        "ad": "Kompüter mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 399.2,
+                        "bal_pullu": 397.1
+                    },
+                    {
+                        "ad": "Logistika və nəqliyyat texnologiyaları mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 387.6,
+                        "bal_pullu": 385.5
+                    },
+                    {
+                        "ad": "Logistika və nəqliyyat texnologiyaları mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 441.9,
+                        "bal_pullu": 441.9
+                    },
+                    {
+                        "ad": "Materiallar mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 215.0,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Mexanika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 275.5,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Mexatronika və robototexnika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 335.8,
+                        "bal_pullu": 335.8
+                    },
+                    {
+                        "ad": "Mexatronika və robototexnika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 350.9,
+                        "bal_pullu": 317.0
+                    },
+                    {
+                        "ad": "Mühəndis fizikası",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 258.3,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Proseslərin avtomatlaşdırılması mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 343.5,
+                        "bal_pullu": 343.5
+                    },
+                    {
+                        "ad": "Radiotexnika və telekommunikasiya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 288.8,
+                        "bal_pullu": 288.8
+                    },
+                    {
+                        "ad": "Uçuş mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 391.9,
+                        "bal_pullu": 382.8
+                    }
+                ]
+            },
+            {
+                "universitet": "Azərbaycan Dövlət Dəniz Akademiyası",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Dəniz naviqasiyası mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 425.8,
+                        "bal_pullu": 370.5
+                    },
+                    {
+                        "ad": "Dəniz naviqasiyası mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 471.3,
+                        "bal_pullu": 471.3
+                    },
+                    {
+                        "ad": "Elektrik və elektronika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 342.6,
+                        "bal_pullu": 342.6
+                    },
+                    {
+                        "ad": "Gəmi energetik qurğularının istismarı mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 355.0,
+                        "bal_pullu": 331.1
+                    },
+                    {
+                        "ad": "Gəmi energetik qurğularının istismarı mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 388.1,
+                        "bal_pullu": 388.1
+                    },
+                    {
+                        "ad": "Gəmiqayırma və gəmi təmiri mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 320.7,
+                        "bal_pullu": 320.7
+                    }
+                ]
+            },
+            {
+                "universitet": "Bakı Ali Neft Məktəbi",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Kompüter elmləri",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 673.5,
+                        "bal_pullu": 673.5
+                    },
+                    {
+                        "ad": "Kompüter elmləri",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 618.4
+                    },
+                    {
+                        "ad": "Informasiya təhlükəsizliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 687.1,
+                        "bal_pullu": 687.1
+                    },
+                    {
+                        "ad": "Informasiya təhlükəsizliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 665.6
+                    },
+                    {
+                        "ad": "Kimya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 678.0,
+                        "bal_pullu": 678.0
+                    },
+                    {
+                        "ad": "Kimya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 615.0
+                    },
+                    {
+                        "ad": "Kompüter mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 673.0,
+                        "bal_pullu": 673.0
+                    },
+                    {
+                        "ad": "Kompüter mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 608.7
+                    },
+                    {
+                        "ad": "Neft-qaz mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 668.3,
+                        "bal_pullu": 668.3
+                    },
+                    {
+                        "ad": "Neft-qaz mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 589.1
+                    },
+                    {
+                        "ad": "Proseslərin avtomatlaşdırılması mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 655.9,
+                        "bal_pullu": 655.9
+                    },
+                    {
+                        "ad": "Proseslərin avtomatlaşdırılması mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 576.1
+                    }
+                ]
+            },
+            {
+                "universitet": "Dövlət Gömrük Komitəsinin Akademiyası",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Informasiya təhlükəsizliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 518.9,
+                        "bal_pullu": 518.9
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 550.8,
+                        "bal_pullu": 550.8
+                    }
+                ]
+            },
+            {
+                "universitet": "Naxçıvan Dövlət Universiteti",
+                "yer": "Naxçıvan",
+                "ixtisaslar": [
+                    {
+                        "ad": "Fizika müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 378.2,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Riyaziyyat müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 515.2,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Riyaziyyat və informatika müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 324.0,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Texnologiya müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 226.0,
+                        "bal_pullu": 191.8
+                    },
+                    {
+                        "ad": "Fizika",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 278.5,
+                        "bal_pullu": 250.0
+                    },
+                    {
+                        "ad": "Riyaziyyat",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 328.7,
+                        "bal_pullu": 250.0
+                    },
+                    {
+                        "ad": "Ekologiya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 248.4,
+                        "bal_pullu": 201.1
+                    },
+                    {
+                        "ad": "Elektrik və elektronika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 256.0,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Energetika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 395.3,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya təhlükəsizliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 427.0,
+                        "bal_pullu": 427.0
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 248.8,
+                        "bal_pullu": 248.8
+                    },
+                    {
+                        "ad": "Kompüter mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 244.7,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Kompüter mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 371.2,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Meliorasiya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 273.9,
+                        "bal_pullu": 190.8
+                    },
+                    {
+                        "ad": "Memarlıq",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 356.1,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Nəqliyyat mühəndisliyi (sahələr üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 226.4,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Torpaqşünaslıq və aqrokimya",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 216.3,
+                        "bal_pullu": 216.3
+                    },
+                    {
+                        "ad": "Torpaqşünaslıq və aqrokimya",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 187.8,
+                        "bal_pullu": 187.8
+                    },
+                    {
+                        "ad": "Yerquruluşu və daşınmaz əmlakın kadastrı",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 249.3,
+                        "bal_pullu": 207.5
+                    }
+                ]
+            },
+            {
+                "universitet": "Naxçıvan Müəllimlər İnstitutu",
+                "yer": "Naxçıvan",
+                "ixtisaslar": [
+                    {
+                        "ad": "Riyaziyyat müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Riyaziyyat və informatika müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 317.1,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Texnologiya müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 178.2
+                    }
+                ]
+            },
+            {
+                "universitet": "Azərbaycan Dövlət Aqrar Universiteti (Gəncə şəhəri)",
+                "yer": "Gəncə",
+                "ixtisaslar": [
+                    {
+                        "ad": "Aqromühəndislik",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 211.1,
+                        "bal_pullu": 211.1
+                    },
+                    {
+                        "ad": "Elektrik və elektronika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 232.8,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Energetika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 203.3,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Həyat fəaliyyətinin təhlükəsizliyi mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 230.8,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 296.6,
+                        "bal_pullu": 296.6
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Kompüter mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 240.1,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Logistika və nəqliyyat texnologiyaları mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 312.6,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Maşın mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 212.0,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Meliorasiya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 217.7,
+                        "bal_pullu": 217.7
+                    },
+                    {
+                        "ad": "Qida mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 345.8,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Aqronomluq",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 208.1,
+                        "bal_pullu": 208.1
+                    },
+                    {
+                        "ad": "Aqronomluq",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 200.7,
+                        "bal_pullu": 200.7
+                    },
+                    {
+                        "ad": "Aqronomluq dilində)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 249.4,
+                        "bal_pullu": 249.4
+                    },
+                    {
+                        "ad": "Balıqçılıq",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 187.2,
+                        "bal_pullu": 187.2
+                    },
+                    {
+                        "ad": "Meşəçilik",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 193.4,
+                        "bal_pullu": 193.4
+                    },
+                    {
+                        "ad": "Şərabçılıq",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 195.3,
+                        "bal_pullu": 195.3
+                    },
+                    {
+                        "ad": "Torpaqşünaslıq və aqrokimya",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 211.4,
+                        "bal_pullu": 211.4
+                    },
+                    {
+                        "ad": "Torpaqşünaslıq və aqrokimya",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 213.3,
+                        "bal_pullu": 213.3
+                    },
+                    {
+                        "ad": "Torpaqşünaslıq və aqrokimya",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 230.5,
+                        "bal_pullu": 230.5
+                    },
+                    {
+                        "ad": "Yerquruluşu və daşınmaz əmlakın kadastrı",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 250.0,
+                        "bal_pullu": 150.0
+                    },
+                    {
+                        "ad": "Yerquruluşu və daşınmaz əmlakın kadastrı",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 150.0
+                    },
+                    {
+                        "ad": "Zoomühəndislik",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 190.6,
+                        "bal_pullu": 190.6
+                    }
+                ]
+            },
+            {
+                "universitet": "Gəncə Dövlət Universiteti",
+                "yer": "Gəncə",
+                "ixtisaslar": [
+                    {
+                        "ad": "Fizika müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 375.4,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informatika müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 293.7,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Riyaziyyat müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 503.6,
+                        "bal_pullu": 247.6
+                    },
+                    {
+                        "ad": "Riyaziyyat və informatika müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 305.6,
+                        "bal_pullu": 305.6
+                    },
+                    {
+                        "ad": "Texnologiya müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 226.1,
+                        "bal_pullu": 197.3
+                    },
+                    {
+                        "ad": "Kompüter elmləri",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 299.5,
+                        "bal_pullu": 250.0
+                    },
+                    {
+                        "ad": "Ekologiya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 356.2,
+                        "bal_pullu": 220.0
+                    },
+                    {
+                        "ad": "Kimya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Maşın mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    }
+                ]
+            },
+            {
+                "universitet": "Azərbaycan Texnologiya Universiteti (Gəncə şəhəri)",
+                "yer": "Gəncə",
+                "ixtisaslar": [
+                    {
+                        "ad": "Ekologiya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 292.8,
+                        "bal_pullu": 204.5
+                    },
+                    {
+                        "ad": "Elektrik və elektronika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 270.7,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Həyat fəaliyyətinin təhlükəsizliyi mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya təhlükəsizliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 431.9,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 229.6,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Kompüter mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 264.7,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Logistika və nəqliyyat texnologiyaları mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 272.6,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Maşın mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 286.7,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Metallurgiya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 274.0,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Nəqliyyat mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 249.9,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Proseslərin avtomatlaşdırılması mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Qida mühəndisliyi (emal",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 363.6,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Radiotexnika və telekommunikasiya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 306.3,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Sənaye mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Şərabçılıq",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 194.4,
+                        "bal_pullu": 184.7
+                    },
+                    {
+                        "ad": "Şərabçılıq",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 196.1,
+                        "bal_pullu": 159.1
+                    },
+                    {
+                        "ad": "Şərabçılıq",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 194.7,
+                        "bal_pullu": 180.0
+                    }
+                ]
+            },
+            {
+                "universitet": "Sumqayıt Dövlət Universiteti",
+                "yer": "Sumqayıt",
+                "ixtisaslar": [
+                    {
+                        "ad": "Fizika müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 434.0,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informatika müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 288.7,
+                        "bal_pullu": 250.6
+                    },
+                    {
+                        "ad": "Riyaziyyat müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 505.6,
+                        "bal_pullu": 273.3
+                    },
+                    {
+                        "ad": "Riyaziyyat müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 502.4,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Riyaziyyat və informatika müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 321.7,
+                        "bal_pullu": 321.7
+                    },
+                    {
+                        "ad": "Fizika",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 287.5,
+                        "bal_pullu": 287.5
+                    },
+                    {
+                        "ad": "Riyaziyyat",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 327.1,
+                        "bal_pullu": 255.6
+                    },
+                    {
+                        "ad": "Riyaziyyat",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 348.9,
+                        "bal_pullu": 267.3
+                    },
+                    {
+                        "ad": "Ekologiya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 250.7,
+                        "bal_pullu": 241.6
+                    },
+                    {
+                        "ad": "Elektrik və elektronika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 238.9,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Energetika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 217.9,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya təhlükəsizliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 412.2,
+                        "bal_pullu": 215.5
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 297.6,
+                        "bal_pullu": 297.6
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 209.0,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Kimya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 465.4,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Kompüter mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 284.7,
+                        "bal_pullu": 284.7
+                    },
+                    {
+                        "ad": "Logistika və nəqliyyat texnologiyaları mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 293.6,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Mexanika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 264.5,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Mexatronika və robototexnika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Neft- qaz mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 429.7,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Proseslərin avtomatlaşdırılması mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Sənaye mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 368.6,
+                        "bal_pullu": 200.0
+                    }
+                ]
+            },
+            {
+                "universitet": "Mingəçevir Dövlət Universiteti",
+                "yer": "Mingəçevir",
+                "ixtisaslar": [
+                    {
+                        "ad": "Fizika müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 389.6,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informatika müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Riyaziyyat müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 511.3,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Riyaziyyat və informatika müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 308.3,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Texnologiya müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 229.2,
+                        "bal_pullu": 206.3
+                    },
+                    {
+                        "ad": "Kompüter elmləri",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 292.3,
+                        "bal_pullu": 250.0
+                    },
+                    {
+                        "ad": "Kompüter elmləri",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 250.0
+                    },
+                    {
+                        "ad": "Ekologiya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 256.5,
+                        "bal_pullu": 216.1
+                    },
+                    {
+                        "ad": "Elektrik və elektronika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 252.9,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Energetika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 233.8,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Həyat fəaliyyətinin təhlükəsizliyi mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 291.8,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya təhlükəsizliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 397.3,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya təhlükəsizliyi",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 215.3,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 239.4,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Kompüter mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 258.6,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Nəqliyyat mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Sənaye mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 314.7,
+                        "bal_pullu": 200.0
+                    }
+                ]
+            },
+            {
+                "universitet": "Lənkəran Dövlət Universiteti",
+                "yer": "Lənkəran",
+                "ixtisaslar": [
+                    {
+                        "ad": "Fizika müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 375.3,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Riyaziyyat müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 512.1,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Riyaziyyat və informatika müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 306.8,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Texnologiya müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 196.4
+                    },
+                    {
+                        "ad": "Aqromühəndislik",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 208.6,
+                        "bal_pullu": 208.6
+                    },
+                    {
+                        "ad": "Informasiya təhlükəsizliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 409.5,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 230.1,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Kompüter mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 249.1,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Qida mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 340.8,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Aqronomluq",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 198.0,
+                        "bal_pullu": 198.0
+                    },
+                    {
+                        "ad": "Aqronomluq",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 193.3,
+                        "bal_pullu": 193.3
+                    },
+                    {
+                        "ad": "Meşəçilik",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 183.8,
+                        "bal_pullu": 183.8
+                    },
+                    {
+                        "ad": "Meşəçilik",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 177.2,
+                        "bal_pullu": 177.2
+                    },
+                    {
+                        "ad": "Şərabçılıq",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 186.3,
+                        "bal_pullu": 186.3
+                    },
+                    {
+                        "ad": "Şərabçılıq",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 173.9,
+                        "bal_pullu": 173.9
+                    },
+                    {
+                        "ad": "Torpaqşünaslıq və aqrokimya",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 205.6,
+                        "bal_pullu": 205.6
+                    },
+                    {
+                        "ad": "Torpaqşünaslıq və aqrokimya",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 203.8,
+                        "bal_pullu": 203.8
+                    },
+                    {
+                        "ad": "Zoomühəndislik",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 187.3,
+                        "bal_pullu": 187.3
+                    }
+                ]
+            },
+            {
+                "universitet": "Qarabağ Universiteti",
+                "yer": "Qarabağ",
+                "ixtisaslar": [
+                    {
+                        "ad": "Riyaziyyat müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 444.4,
+                        "bal_pullu": 444.4
+                    },
+                    {
+                        "ad": "Elektrik və elektronika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 363.9,
+                        "bal_pullu": 363.9
+                    },
+                    {
+                        "ad": "Inşaat mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 363.9,
+                        "bal_pullu": 363.9
+                    },
+                    {
+                        "ad": "Kompüter mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 442.3,
+                        "bal_pullu": 442.3
+                    },
+                    {
+                        "ad": "Logistika və nəqliyyat texnologiyaları mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 376.7,
+                        "bal_pullu": 376.7
+                    },
+                    {
+                        "ad": "Mexatronika və robototexnika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RIs",
+                        "bal_pulsuz": 378.7,
+                        "bal_pullu": 378.7
+                    }
+                ]
+            },
+            {
+                "universitet": "Türkiyə-Azərbaycan Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Kompüter mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 641.6,
+                        "bal_pullu": 641.6
+                    },
+                    {
+                        "ad": "Qida mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 452.1,
+                        "bal_pullu": 450.0
+                    },
+                    {
+                        "ad": "Sənaye mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 544.4,
+                        "bal_pullu": 544.4
+                    }
+                ]
+            },
+            {
+                "universitet": "Azərbaycan Kooperasiya Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Ekologiya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 227.9,
+                        "bal_pullu": 223.3
+                    },
+                    {
+                        "ad": "Kompüter mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 260.5,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Qida mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Şərabçılıq",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 212.8,
+                        "bal_pullu": 212.8
+                    },
+                    {
+                        "ad": "Şərabçılıq",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 202.8,
+                        "bal_pullu": 202.8
+                    },
+                    {
+                        "ad": "Torpaqşünaslıq və aqrokimya",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 243.0,
+                        "bal_pullu": 243.0
+                    },
+                    {
+                        "ad": "Yerquruluşu və daşınmaz əmlakın kadastrı",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 251.4,
+                        "bal_pullu": 244.6
+                    }
+                ]
+            },
+            {
+                "universitet": "“Azərbaycan ” Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Informasiya təhlükəsizliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya təhlükəsizliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 401.7,
+                        "bal_pullu": 264.7
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 311.5,
+                        "bal_pullu": 311.5
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 245.7,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Kompüter mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 282.7,
+                        "bal_pullu": 282.7
+                    }
+                ]
+            },
+            {
+                "universitet": "Qərbi Kaspi Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Kompüter elmləri",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 293.6,
+                        "bal_pullu": 250.0
+                    },
+                    {
+                        "ad": "Kompüter elmləri",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 250.0
+                    },
+                    {
+                        "ad": "Cihaz mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 213.1,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya təhlükəsizliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya təhlükəsizliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya təhlükəsizliyi",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 276.1,
+                        "bal_pullu": 276.1
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Kompüter mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 248.5,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Kompüter mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 241.7,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Meşəçilik",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 226.0,
+                        "bal_pullu": 225.7
+                    },
+                    {
+                        "ad": "Meşəçilik",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 211.7,
+                        "bal_pullu": 211.7
+                    }
+                ]
+            },
+            {
+                "universitet": "Xəzər Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Fizika müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 371.0,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Riyaziyyat və informatika müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 371.8,
+                        "bal_pullu": 371.8
+                    },
+                    {
+                        "ad": "Kompüter elmləri",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 444.1,
+                        "bal_pullu": 444.1
+                    },
+                    {
+                        "ad": "Elektrik və elektronika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 248.8,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Inşaat mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 314.9,
+                        "bal_pullu": 314.9
+                    },
+                    {
+                        "ad": "Kimya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 562.9,
+                        "bal_pullu": 562.9
+                    },
+                    {
+                        "ad": "Kompüter mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 434.4,
+                        "bal_pullu": 434.4
+                    },
+                    {
+                        "ad": "Mexanika mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 283.0,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Neft-qaz mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 433.2,
+                        "bal_pullu": 433.2
+                    },
+                    {
+                        "ad": "Radiotexnika və telekommunikasiya mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 276.0,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Memarlıq dilində)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RK",
+                        "bal_pulsuz": 305.8,
+                        "bal_pullu": 200.0
+                    }
+                ]
+            },
+            {
+                "universitet": "Bakı Avrasiya Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 204.4,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    }
+                ]
+            },
+            {
+                "universitet": "Bakı Qızlar Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Riyaziyyat və informatika müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 305.8,
+                        "bal_pullu": 200.0
+                    }
+                ]
+            },
+            {
+                "universitet": "Odlar Yurdu Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Informasiya təhlükəsizliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 343.6,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 268.8,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 245.0,
+                        "bal_pullu": 245.0
+                    },
+                    {
+                        "ad": "Kompüter mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 336.2,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Kompüter mühəndisliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 241.3,
+                        "bal_pullu": 200.0
+                    }
+                ]
+            },
+            {
+                "universitet": "Bakı Biznes Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Informasiya texnologiyaları",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "RI",
+                        "bal_pulsuz": 219.5,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "-",
+                        "tehsil_formasi": "-",
+                        "dil": "-",
+                        "alt_qrup": "-",
+                        "bal_pulsuz": null,
+                        "bal_pullu": null
+                    }
+
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,3293 @@
+[
+    {
+        "qrup": "2",
+        "universitetler": [
+            {
+                "universitet": "Bakı Dövlət Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Azərbaycan dili və ədəbiyyatı müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 539.1,
+                        "bal_pullu": 539.1
+                    },
+                    {
+                        "ad": "Korreksiyaedici təlim",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 417.9,
+                        "bal_pullu": 417.9
+                    },
+                    {
+                        "ad": "Tarix müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 497.2,
+                        "bal_pullu": 497.2
+                    },
+                    {
+                        "ad": "Təhsildə sosial-psixoloji xidmət",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 460.1,
+                        "bal_pullu": 460.1
+                    },
+                    {
+                        "ad": "Beynəlxalq münasibətlər",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": 468.6,
+                        "bal_pullu": 376.5
+                    },
+                    {
+                        "ad": "Beynəlxalq münasibətlər",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": 481.5,
+                        "bal_pullu": 481.5
+                    },
+                    {
+                        "ad": "Dövlət və ictimai münasibətlər",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 601.9,
+                        "bal_pullu": 536.4
+                    },
+                    {
+                        "ad": "Dövlət və ictimai münasibətlər",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 443.8
+                    },
+                    {
+                        "ad": "Dövlət və ictimai münasibətlər",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 602.1,
+                        "bal_pullu": 582.3
+                    },
+                    {
+                        "ad": "Fəlsəfə",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 387.6,
+                        "bal_pullu": 242.9
+                    },
+                    {
+                        "ad": "Filologiya (Azərbaycan dili və Ədəbiyyatı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 487.1,
+                        "bal_pullu": 413.0
+                    },
+                    {
+                        "ad": "Filologiya (Azərbaycan dili və Ədəbiyyatı)",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 591.2,
+                        "bal_pullu": 344.1
+                    },
+                    {
+                        "ad": "Filologiya (ingilis dili və ədəbiyyatı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 490.5,
+                        "bal_pullu": 490.5
+                    },
+                    {
+                        "ad": "Filologiya (Fransız dili və ədəbiyyatı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Fransız",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Filologiya (alman dili və ədəbiyyatı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Alman",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 507.6,
+                        "bal_pullu": 360.5
+                    },
+                    {
+                        "ad": "Filologiya (ərəb dili və ədəbiyyatı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Ərəb",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Filologiya (türk dili və ədəbiyyatı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Türk",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 331.0
+                    },
+                    {
+                        "ad": "Filologiya (fars dili və ədəbiyyatı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Fars",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Hüquqşünaslıq",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 613.9,
+                        "bal_pullu": 612.8
+                    },
+                    {
+                        "ad": "Hüquqşünaslıq",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 537.7
+                    },
+                    {
+                        "ad": "Hüquqşünaslıq",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 660.3,
+                        "bal_pullu": 660.3
+                    },
+                    {
+                        "ad": "Kitabxanaçılıq və informasiya",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 382.2,
+                        "bal_pullu": 281.8
+                    },
+                    {
+                        "ad": "Kitabxanaçılıq və informasiya fəaliyyəti",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 408.2,
+                        "bal_pullu": 264.1
+                    },
+                    {
+                        "ad": "Kitabxanaçılıq və informasiya fəaliyyəti",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 382.3,
+                        "bal_pullu": 314.3
+                    },
+                    {
+                        "ad": "Politologiya",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 516.8,
+                        "bal_pullu": 443.9
+                    },
+                    {
+                        "ad": "Regionşünaslıq (ərəb ölkələri üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 231.0
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Türkiyə üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": 386.7,
+                        "bal_pullu": 297.4
+                    },
+                    {
+                        "ad": "Regionşünaslıq (İran üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 216.5
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Yaponiya üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": 442.7,
+                        "bal_pullu": 277.2
+                    },
+                    {
+                        "ad": "Regionşünaslıq (İsrail üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 235.8
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Pakistan üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 224.7
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Koreya üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": 383.2,
+                        "bal_pullu": 306.3
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Amerika üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": 381.5,
+                        "bal_pullu": 320.5
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Qafqaz üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 243.5
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Amerika üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": 382.8,
+                        "bal_pullu": 382.8
+                    },
+                    {
+                        "ad": "Tarix",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 500.6,
+                        "bal_pullu": 439.0
+                    },
+                    {
+                        "ad": "Tarix",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 328.4
+                    },
+                    {
+                        "ad": "Tarix",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 539.6,
+                        "bal_pullu": 539.6
+                    },
+                    {
+                        "ad": "Tərcümə (ərəb dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Ərəb",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Tərcümə (fars dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Fars",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Muzey, arxiv işi və abidələrin qorunması",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 376.8,
+                        "bal_pullu": 376.8
+                    },
+                    {
+                        "ad": "Sosial iş",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 481.7,
+                        "bal_pullu": 481.7
+                    },
+                    {
+                        "ad": "Sosial iş",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 434.0,
+                        "bal_pullu": 324.8
+                    },
+                    {
+                        "ad": "Sosial iş",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 527.7,
+                        "bal_pullu": 527.7
+                    },
+                    {
+                        "ad": "Jurnalistika",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 386.9,
+                        "bal_pullu": 371.4
+                    },
+                    {
+                        "ad": "Jurnalistika",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 253.5
+                    },
+                    {
+                        "ad": "Jurnalistika",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 445.4,
+                        "bal_pullu": 445.4
+                    },
+                    {
+                        "ad": "Azərbaycan dili və ədəbiyyatı müəllimliyi (Qazax filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 526.3,
+                        "bal_pullu": 370.2
+                    },
+                    {
+                        "ad": "İbtidai sinif müəllimliyi (Qazax filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 467.6,
+                        "bal_pullu": 316.1
+                    },
+                    {
+                        "ad": "Məktəbəqədər təhsil (Qazax filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 433.4,
+                        "bal_pullu": 254.1
+                    },
+                    {
+                        "ad": "Tarix müəllimliyi (Qazax filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 491.9,
+                        "bal_pullu": 330.6
+                    },
+                    {
+                        "ad": "Filologiya (Azərbaycan dili və Ədəbiyyatı, Qazax filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 262.9
+                    },
+                    {
+                        "ad": "Filologiya (Azərbaycan dili və Ədəbiyyatı, Qazax filialı)",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 255.8
+                    },
+                    {
+                        "ad": "Tarix (Qazax filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 276.4
+                    },
+                    {
+                        "ad": "Tarix (Qazax filialı)",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 250.5
+                    },
+                    {
+                        "ad": "Sosial iş (Qazax filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 441.7,
+                        "bal_pullu": 249.7
+                    },
+                    {
+                        "ad": "Sosial iş (Qazax filialı)",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 528.3,
+                        "bal_pullu": 248.9
+                    }
+                ]
+            },
+            {
+                "universitet": "Azərbaycan Dövlət Pedaqoji Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Azərbaycan dili və ədəbiyyatı müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 505.5,
+                        "bal_pullu": 460.3
+                    },
+                    {
+                        "ad": "Dil və ədəbiyyat müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Türk",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 444.2,
+                        "bal_pullu": 308.3
+                    },
+                    {
+                        "ad": "İbtidai sinif müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 462.9,
+                        "bal_pullu": 389.1
+                    },
+                    {
+                        "ad": "İbtidai sinif müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 463.7,
+                        "bal_pullu": 433.1
+                    },
+                    {
+                        "ad": "Korreksiyaedici təlim",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 416.9,
+                        "bal_pullu": 330.4
+                    },
+                    {
+                        "ad": "Məktəbəqədər təhsil",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 387.6,
+                        "bal_pullu": 370.3
+                    },
+                    {
+                        "ad": "Tarix müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 488.7,
+                        "bal_pullu": 435.9
+                    },
+                    {
+                        "ad": "Təhsildə sosial-psixoloji xidmət",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 425.2,
+                        "bal_pullu": 425.2
+                    },
+                    {
+                        "ad": "Xarici dil müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 542.4,
+                        "bal_pullu": 449.9
+                    },
+                    {
+                        "ad": "Xarici dil müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Fransız",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 260.0
+                    },
+                    {
+                        "ad": "Filologiya (Azərbaycan dili və Ədəbiyyatı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 358.0
+                    },
+                    {
+                        "ad": "Sosial iş",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 450.7,
+                        "bal_pullu": 450.7
+                    },
+                    {
+                        "ad": "Azərbaycan dili və ədəbiyyatı müəllimliyii (Şamaxı filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 529.8,
+                        "bal_pullu": 357.3
+                    },
+                    {
+                        "ad": "İbtidai sinif müəllimliyii (Şamaxı filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 305.1
+                    },
+                    {
+                        "ad": "Məktəbəqədər təhsili (Şamaxı filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 390.3,
+                        "bal_pullu": 254.6
+                    },
+                    {
+                        "ad": "Tarix müəllimliyii (Şamaxı filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 337.1
+                    },
+                    {
+                        "ad": "Təhsildə sosial-psixoloji xidməti (Şamaxı filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 487.2,
+                        "bal_pullu": 277.1
+                    },
+                    {
+                        "ad": "Azərbaycan dili və ədəbiyyatı müəllimliyi (Şəki filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 509.0,
+                        "bal_pullu": 345.3
+                    },
+                    {
+                        "ad": "İbtidai sinif müəllimliyi (Şəki filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 507.7,
+                        "bal_pullu": 308.8
+                    },
+                    {
+                        "ad": "Məktəbəqədər təhsil (Şəki filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 389.8,
+                        "bal_pullu": 254.1
+                    },
+                    {
+                        "ad": "Tarix müəllimliyi (Şəki filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 501.3,
+                        "bal_pullu": 333.2
+                    },
+                    {
+                        "ad": "Təhsildə sosial-psixoloji xidmət (Şəki filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 414.4,
+                        "bal_pullu": 278.2
+                    },
+                    {
+                        "ad": "Xarici dil müəllimliyi (Şəki filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 564.9,
+                        "bal_pullu": 352.4
+                    },
+                    {
+                        "ad": "Xarici dil müəllimliyi (Şəki filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Fransız",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Sosial iş (Şəki filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 432.7,
+                        "bal_pullu": 276.7
+                    },
+                    {
+                        "ad": "Azərbaycan dili və ədəbiyyatı müəllimliyi (Ağcabədi filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 332.3
+                    },
+                    {
+                        "ad": "İbtidai sinif müəllimliyi (Ağcabədi filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 297.0
+                    },
+                    {
+                        "ad": "Məktəbəqədər təhsil (Ağcabədi filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 250.0
+                    },
+                    {
+                        "ad": "Tarix müəllimliyi (Ağcabədi filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 504.3,
+                        "bal_pullu": 314.6
+                    },
+                    {
+                        "ad": "Təhsildə sosial-psixoloji xidmət (Ağcabədi filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 426.2,
+                        "bal_pullu": 273.7
+                    },
+                    {
+                        "ad": "Xarici dil müəllimliyi (Ağcabədi filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 339.6
+                    },
+                    {
+                        "ad": "Sosial iş (Ağcabədi filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 264.6
+                    },
+                    {
+                        "ad": "Azərbaycan dili və ədəbiyyatı müəllimliyi (Cəlilabad filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 510.2,
+                        "bal_pullu": 340.1
+                    },
+                    {
+                        "ad": "İbtidai sinif müəllimliyi (Cəlilabad filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 294.5
+                    },
+                    {
+                        "ad": "Məktəbəqədər təhsil (Cəlilabad filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 391.4,
+                        "bal_pullu": 236.0
+                    },
+                    {
+                        "ad": "Təhsildə sosial-psixoloji xidmət (Cəlilabad filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 461.5,
+                        "bal_pullu": 259.3
+                    },
+                    {
+                        "ad": "Azərbaycan dili və ədəbiyyatı müəllimliyi (Quba filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 606.9,
+                        "bal_pullu": 367.9
+                    },
+                    {
+                        "ad": "İbtidai sinif müəllimliyi (Quba filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 311.1
+                    },
+                    {
+                        "ad": "Məktəbəqədər təhsil (Quba filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 392.7,
+                        "bal_pullu": 258.7
+                    },
+                    {
+                        "ad": "Tarix müəllimliyi (Quba filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 351.6
+                    },
+                    {
+                        "ad": "Təhsildə sosial-psixoloji xidmət (Quba filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 424.8,
+                        "bal_pullu": 294.8
+                    },
+                    {
+                        "ad": "Xarici dil müəllimliyi (Quba filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 563.8,
+                        "bal_pullu": 364.0
+                    },
+                    {
+                        "ad": "Sosial iş (Quba filialı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 442.8,
+                        "bal_pullu": 279.7
+                    }
+                ]
+            },
+            {
+                "universitet": "Azərbaycan Dövlət İqtisad Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Beynəlxalq münasibətlər",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Türk",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": 469.6,
+                        "bal_pullu": 364.5
+                    },
+                    {
+                        "ad": "Beynəlxalq münasibətlər",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": 468.0,
+                        "bal_pullu": 397.6
+                    },
+                    {
+                        "ad": "Beynəlxalq münasibətlər",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Sosial iş",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 467.0,
+                        "bal_pullu": 467.0
+                    },
+                    {
+                        "ad": "Sosial iş",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 458.0,
+                        "bal_pullu": 301.0
+                    }
+                ]
+            },
+            {
+                "universitet": "Azərbaycan Dillər Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Azərbaycan dili və ədəbiyyatı müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 525.3,
+                        "bal_pullu": 525.3
+                    },
+                    {
+                        "ad": "Dil və ədəbiyyat müəllimliyi (İngilis dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 547.0,
+                        "bal_pullu": 547.0
+                    },
+                    {
+                        "ad": "Dil və ədəbiyyat müəllimliyi (Alman dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Alman",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 445.2,
+                        "bal_pullu": 413.7
+                    },
+                    {
+                        "ad": "Dil və ədəbiyyat müəllimliyi (Fransız dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Fransız",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 453.4,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "İbtidai sinif müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 490.0,
+                        "bal_pullu": 490.0
+                    },
+                    {
+                        "ad": "Korreksiyaedici təlim",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 418.6,
+                        "bal_pullu": 372.9
+                    },
+                    {
+                        "ad": "Məktəbəqədər təhsil",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 431.8,
+                        "bal_pullu": 431.8
+                    },
+                    {
+                        "ad": "Təhsildə sosial-psixoloji xidmət",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 450.7,
+                        "bal_pullu": 450.7
+                    },
+                    {
+                        "ad": "Xarici dil müəllimliyi (İngilis dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 540.6,
+                        "bal_pullu": 453.1
+                    },
+                    {
+                        "ad": "Xarici dil müəllimliyi (Alman dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Alman",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 544.0,
+                        "bal_pullu": 376.0
+                    },
+                    {
+                        "ad": "Xarici dil müəllimliyi (Fransız dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Fransız",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 284.8
+                    },
+                    {
+                        "ad": "Beynəlxalq münasibətlər",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": 480.2,
+                        "bal_pullu": 363.8
+                    },
+                    {
+                        "ad": "Beynəlxalq münasibətlər",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": 468.0,
+                        "bal_pullu": 425.3
+                    },
+                    {
+                        "ad": "Filologiya (ingilis dili və ədəbiyyatı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 504.5,
+                        "bal_pullu": 504.5
+                    },
+                    {
+                        "ad": "Filologiya (alman dili və ədəbiyyatı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Alman",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 488.2,
+                        "bal_pullu": 349.2
+                    },
+                    {
+                        "ad": "Filologiya (fransız dili və ədəbiyyatı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Fransız",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 263.6
+                    },
+                    {
+                        "ad": "Filologiya (Azərbaycan dili və Ədəbiyyatı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 487.8,
+                        "bal_pullu": 395.5
+                    },
+                    {
+                        "ad": "Filologiya (İspan dili və Ədəbiyyatı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İspan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 300.8
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Böyük Britaniya üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 270.9
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Almaniya üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": 386.5,
+                        "bal_pullu": 316.5
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Fransa üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 255.8
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Amerika üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": 383.4,
+                        "bal_pullu": 286.3
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Norveç üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 245.4
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Qafqaz üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 218.9
+                    },
+                    {
+                        "ad": "Regionşünaslıq (İsrail və Yaxın şərq üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": 420.2,
+                        "bal_pullu": 207.3
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Yaponiya üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 241.7
+                    },
+                    {
+                        "ad": "Regionşünaslıq (ərəb ölkələri üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 196.0
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Çin dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": 384.5,
+                        "bal_pullu": 242.7
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Cənubi Amerika üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 231.0
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Mərkəzi və Şərqi avropa üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 223.6
+                    },
+                    {
+                        "ad": "Regionşünaslıq (rusiya üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 214.3
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Türkiyə üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 279.8
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Balkan ölkələri üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 213.6
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Afrika üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 197.3
+                    },
+                    {
+                        "ad": "Regionşünaslıq (indoneziya üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 196.1
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Pakistan üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 197.8
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Böyük Britaniya üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 282.7
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Amerika üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": 390.4,
+                        "bal_pullu": 327.7
+                    },
+                    {
+                        "ad": "Tərcümə (İngilis dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 504.3,
+                        "bal_pullu": 504.3
+                    },
+                    {
+                        "ad": "Tərcümə (rus dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Rus",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Tərcümə (İspan dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İspan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 475.6,
+                        "bal_pullu": 422.6
+                    },
+                    {
+                        "ad": "Tərcümə (Alman dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Alman",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 496.5,
+                        "bal_pullu": 496.5
+                    },
+                    {
+                        "ad": "Tərcümə (fransız dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Fransız",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 475.0,
+                        "bal_pullu": 306.0
+                    },
+                    {
+                        "ad": "Tərcümə (İtaliyan dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İtaliyan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 303.3
+                    },
+                    {
+                        "ad": "Tərcümə (Koreya dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Koreya",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 519.4,
+                        "bal_pullu": 519.4
+                    },
+                    {
+                        "ad": "Tərcümə (Çin dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Çin",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 473.5,
+                        "bal_pullu": 442.9
+                    },
+                    {
+                        "ad": "Tərcümə (ərəb dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Ərəb",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 281.3
+                    },
+                    {
+                        "ad": "Tərcümə (erməni dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "erməni",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 324.5
+                    },
+                    {
+                        "ad": "Jurnalistika",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 388.9,
+                        "bal_pullu": 343.8
+                    }
+                ]
+            },
+            {
+                "universitet": "Bakı Slavyan Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Azərbaycan dili və ədəbiyyatı müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 510.1,
+                        "bal_pullu": 430.1
+                    },
+                    {
+                        "ad": "İbtidai sinif müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 476.8,
+                        "bal_pullu": 384.3
+                    },
+                    {
+                        "ad": "Korreksiyaedici təlim",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 336.6
+                    },
+                    {
+                        "ad": "Məktəbəqədər təhsil",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 390.5,
+                        "bal_pullu": 361.0
+                    },
+                    {
+                        "ad": "Təhsildə sosial-psixoloji xidmət",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 422.1,
+                        "bal_pullu": 422.1
+                    },
+                    {
+                        "ad": "Xarici dil müəllimliyi (İngilis dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 448.5
+                    },
+                    {
+                        "ad": "Xarici dil müəllimliyi (Alman dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Alman",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 333.5
+                    },
+                    {
+                        "ad": "Xarici dil müəllimliyi (Fransız dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Fransız",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 254.2
+                    },
+                    {
+                        "ad": "Xarici dil müəllimliyi (rus dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 575.6,
+                        "bal_pullu": 277.4
+                    },
+                    {
+                        "ad": "Beynəlxalq münasibətlər",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 348.0
+                    },
+                    {
+                        "ad": "Beynəlxalq münasibətlər",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Filologiya (ingilis dili və ədəbiyyatı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 489.4,
+                        "bal_pullu": 396.3
+                    },
+                    {
+                        "ad": "Filologiya (türk dili və ədəbiyyatı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Türk",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 280.1
+                    },
+                    {
+                        "ad": "Filologiya (Azərbaycan dili və Ədəbiyyatı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 363.5
+                    },
+                    {
+                        "ad": "Filologiya (Azərbaycan dili və Ədəbiyyatı)",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 308.1
+                    },
+                    {
+                        "ad": "Regionşünaslıq (rusiya üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 199.7
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Belarus üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 198.3
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Almaniya üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": 399.6,
+                        "bal_pullu": 225.3
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Azərbaycan üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 213.4
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Türkiyə üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 214.8
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Balkan ölkələri üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 195.4
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Xəzəryanı ölkələr üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 205.7
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Bolqarıstan üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 192.2
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Yunanıstan üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 192.0
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Çexiya üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 203.5
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Ukrayna üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 202.7
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Polşa üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 204.7
+                    },
+                    {
+                        "ad": "Tərcümə (Azərbaycan dili-ingilis dili)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 473.6,
+                        "bal_pullu": 415.5
+                    },
+                    {
+                        "ad": "Tərcümə  (Azərbaycan dili-Ukrayna dili)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Ukrayna",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Tərcümə (Azərbaycan dili-fransız dili)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Fransız",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 243.8
+                    },
+                    {
+                        "ad": "Tərcümə  (Azərbaycan dili-polyak dili)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Polyak",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Tərcümə (Azərbaycan dili-rus dili)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Rus",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 243.9
+                    },
+                    {
+                        "ad": "Tərcümə (Azərbaycan dili-bolqar dili)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Bolqar",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Tərcümə (Azərbaycan dili-yunan dili)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Yunan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Tərcümə (Azərbaycan dili-alman dili)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Alman",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 495.7,
+                        "bal_pullu": 315.5
+                    },
+                    {
+                        "ad": "Tərcümə (Azərbaycan dili-çex dili)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Çex",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Jurnalistika",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 399.4,
+                        "bal_pullu": 335.3
+                    }
+                ]
+            },
+            {
+                "universitet": "Azərbaycan Respublikası Prezidenti yanında Dövlət İdarəçilik Akademiyası",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Beynəlxalq münasibətlər",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": 507.2,
+                        "bal_pullu": 507.2
+                    },
+                    {
+                        "ad": "Dövlət və ictimai münasibətlər",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 604.4,
+                        "bal_pullu": 604.4
+                    },
+                    {
+                        "ad": "Hüquqşünaslıq",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 659.0,
+                        "bal_pullu": 659.0
+                    },
+                    {
+                        "ad": "Politologiya",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 570.8,
+                        "bal_pullu": 570.8
+                    }
+                ]
+            },
+            {
+                "universitet": "ADA Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Beynəlxalq münasibətlər",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 538.5
+                    },
+                    {
+                        "ad": "Dövlət və ictimai münasibətlər",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 589.1
+                    },
+                    {
+                        "ad": "Hüquqşünaslıq",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 627.4
+                    },
+                    {
+                        "ad": "Kommunikasiya və rəqəmsal media",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 566.3
+                    }
+                ]
+            },
+            {
+                "universitet": "Azərbaycan Dövlət Mədəniyyət və İncəsənət Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Kitabxanaçılıq və informasiya fəaliyyəti",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 396.3,
+                        "bal_pullu": 253.2
+                    },
+                    {
+                        "ad": "Bədii yaradıcılıq və ekran dramaturgiyası",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 363.6,
+                        "bal_pullu": 316.5
+                    },
+                    {
+                        "ad": "Muzey, arxiv işi və abidələrin qorunması",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 369.3,
+                        "bal_pullu": 250.5
+                    },
+                    {
+                        "ad": "Sənətşünaslıq (teatrşünaslıq)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 334.4,
+                        "bal_pullu": 211.8
+                    },
+                    {
+                        "ad": "Sənətşünaslıq (təsviri sənətin tarixi və nəzəriyyəsi)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 331.9,
+                        "bal_pullu": 246.6
+                    },
+                    {
+                        "ad": "Sənətşünaslıq (kinoşünaslıq)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 332.6,
+                        "bal_pullu": 266.9
+                    },
+                    {
+                        "ad": "Sosial iş",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 443.4,
+                        "bal_pullu": 358.6
+                    }
+                ]
+            },
+            {
+                "universitet": "Azərbaycan Dövlət Rəssamlıq Akademiyası",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Sənətşünaslıq",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 333.3,
+                        "bal_pullu": 203.5
+                    }
+                ]
+            },
+            {
+                "universitet": "Azərbaycan Turizm və Menecment Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Beynəlxalq münasibətlər",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 338.3
+                    },
+                    {
+                        "ad": "Tərcümə (ingilis dili-Azərbaycan dili)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 480.5,
+                        "bal_pullu": 355.1
+                    },
+                    {
+                        "ad": "Muzey, arxiv işi və abidələrin qorunması",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 371.2,
+                        "bal_pullu": 268.0
+                    },
+                    {
+                        "ad": "Sosial iş",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 431.3,
+                        "bal_pullu": 390.8
+                    },
+                    {
+                        "ad": "Sosial iş",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 276.5
+                    }
+                ]
+            },
+            {
+                "universitet": "Milli Aviasiya Akademiyası",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Hüquqşünaslıq",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 618.1,
+                        "bal_pullu": 583.8
+                    },
+                    {
+                        "ad": "Hüquqşünaslıq",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 514.7
+                    },
+                    {
+                        "ad": "Hüquqşünaslıq",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 616.1,
+                        "bal_pullu": 597.0
+                    }
+                ]
+            },
+            {
+                "universitet": "Dövlət Gömrük Komitəsinin Akademiyası",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Hüquqşünaslıq",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 618.7,
+                        "bal_pullu": 598.4
+                    }
+                ]
+            },
+            {
+                "universitet": "Naxçıvan Dövlət Universiteti",
+                "yer": "Naxçıvan",
+                "ixtisaslar": [
+                    {
+                        "ad": "Azərbaycan dili və ədəbiyyatı müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 506.6,
+                        "bal_pullu": 405.0
+                    },
+                    {
+                        "ad": "Tarix müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 489.5,
+                        "bal_pullu": 435.8
+                    },
+                    {
+                        "ad": "Xarici dil müəllimliyi (ingilis dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 546.7,
+                        "bal_pullu": 465.4
+                    },
+                    {
+                        "ad": "Xarici dil müəllimliyi (Fransız dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Fransız",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Xarici dil müəllimliyi (Alman dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Alman",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Xarici dil müəllimliyi (rus dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Rus",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Beynəlxalq münasibətlər",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": 497.7,
+                        "bal_pullu": 280.3
+                    },
+                    {
+                        "ad": "Beynəlxalq münasibətlər",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 286.1
+                    },
+                    {
+                        "ad": "Dövlət və ictimai münasibətlər",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 603.3,
+                        "bal_pullu": 453.2
+                    },
+                    {
+                        "ad": "Filologiya (Azərbaycan dili və Ədəbiyyatı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 316.9
+                    },
+                    {
+                        "ad": "Filologiya (Azərbaycan dili və Ədəbiyyatı)",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 216.9
+                    },
+                    {
+                        "ad": "Hüquqşünaslıq",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 617.8,
+                        "bal_pullu": 574.6
+                    },
+                    {
+                        "ad": "Hüquqşünaslıq",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 497.2
+                    },
+                    {
+                        "ad": "Kitabxanaçılıq və informasiya fəaliyyəti",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Kitabxanaçılıq və informasiya fəaliyyəti",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Avropa üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 183.9
+                    },
+                    {
+                        "ad": "Tarix",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 507.2,
+                        "bal_pullu": 332.0
+                    },
+                    {
+                        "ad": "Tarix",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 209.7
+                    },
+                    {
+                        "ad": "Tərcümə (ingilis dili-Azərbaycan dili)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 475.9,
+                        "bal_pullu": 332.1
+                    },
+                    {
+                        "ad": "Muzey, arxiv işi və abidələrin qorunması",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 376.8,
+                        "bal_pullu": 218.6
+                    },
+                    {
+                        "ad": "Muzey, arxiv işi və abidələrin qorunması",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 215.7
+                    },
+                    {
+                        "ad": "Sosial iş",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 433.3,
+                        "bal_pullu": 418.1
+                    },
+                    {
+                        "ad": "Jurnalistika",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 395.0,
+                        "bal_pullu": 205.8
+                    }
+                ]
+            },
+            {
+                "universitet": "Naxçıvan Müəllimlər İnstitutu",
+                "yer": "Naxçıvan",
+                "ixtisaslar": [
+                    {
+                        "ad": "Azərbaycan dili və ədəbiyyatı müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 339.6
+                    },
+                    {
+                        "ad": "İbtidai sinif müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 463.6,
+                        "bal_pullu": 224.7
+                    },
+                    {
+                        "ad": "Korreksiyaedici təlim",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Məktəbəqədər təhsil",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 394.3,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Tarix müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 311.1
+                    },
+                    {
+                        "ad": "Təhsildə sosial-psixoloji xidmət",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 407.4,
+                        "bal_pullu": 246.4
+                    },
+                    {
+                        "ad": "Xarici dil müəllimliyi (İngilis dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 347.0
+                    },
+                    {
+                        "ad": "Kitabxanaçılıq və informasiya fəaliyyəti",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    }
+                ]
+            },
+            {
+                "universitet": "Gəncə Dövlət Universiteti",
+                "yer": "Gəncə",
+                "ixtisaslar": [
+                    {
+                        "ad": "Azərbaycan dili və ədəbiyyatı müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 508.8,
+                        "bal_pullu": 396.7
+                    },
+                    {
+                        "ad": "İbtidai sinif müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 463.4,
+                        "bal_pullu": 345.3
+                    },
+                    {
+                        "ad": "Məktəbəqədər təhsil",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 390.8,
+                        "bal_pullu": 287.5
+                    },
+                    {
+                        "ad": "Tarix müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 488.4,
+                        "bal_pullu": 384.8
+                    },
+                    {
+                        "ad": "Təhsildə sosial-psixoloji xidmət",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 408.9,
+                        "bal_pullu": 329.1
+                    },
+                    {
+                        "ad": "Xarici dil müəllimliyi (ingilis dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 540.8,
+                        "bal_pullu": 421.1
+                    },
+                    {
+                        "ad": "Xarici dil müəllimliyi (rus dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Rus",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 258.6
+                    },
+                    {
+                        "ad": "Xarici dil müəllimliyi (Alman dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Alman",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 256.4
+                    },
+                    {
+                        "ad": "Xarici dil müəllimliyi (Fransız dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Fransız",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Filologiya (Azərbaycan dili və Ədəbiyyatı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 301.7
+                    },
+                    {
+                        "ad": "Filologiya (Azərbaycan dili və Ədəbiyyatı)",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 271.4
+                    },
+                    {
+                        "ad": "Tarix",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 509.6,
+                        "bal_pullu": 333.5
+                    },
+                    {
+                        "ad": "Tarix",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 254.9
+                    },
+                    {
+                        "ad": "Tarix",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 330.5
+                    },
+                    {
+                        "ad": "Tərcümə (İngilis dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 475.5,
+                        "bal_pullu": 318.7
+                    },
+                    {
+                        "ad": "Sosial iş",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 431.6,
+                        "bal_pullu": 311.2
+                    },
+                    {
+                        "ad": "Sosial iş",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 268.2
+                    }
+                ]
+            },
+            {
+                "universitet": "Sumqayıt Dövlət Universiteti",
+                "yer": "Sumqayıt",
+                "ixtisaslar": [
+                    {
+                        "ad": "Azərbaycan dili və ədəbiyyatı müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 505.8,
+                        "bal_pullu": 415.6
+                    },
+                    {
+                        "ad": "İbtidai sinif müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 469.7,
+                        "bal_pullu": 384.0
+                    },
+                    {
+                        "ad": "Korreksiyaedici təlim",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 325.8
+                    },
+                    {
+                        "ad": "Məktəbəqədər təhsil",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 392.9,
+                        "bal_pullu": 340.7
+                    },
+                    {
+                        "ad": "Tarix müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 488.7,
+                        "bal_pullu": 402.2
+                    },
+                    {
+                        "ad": "Təhsildə sosial-psixoloji xidmət",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 405.8,
+                        "bal_pullu": 376.0
+                    },
+                    {
+                        "ad": "Xarici dil müəllimliyi (ingilis dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 569.2,
+                        "bal_pullu": 433.3
+                    },
+                    {
+                        "ad": "Filologiya (Azərbaycan dili və Ədəbiyyatı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 497.9,
+                        "bal_pullu": 355.7
+                    },
+                    {
+                        "ad": "Filologiya (Azərbaycan dili və Ədəbiyyatı)",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 313.2
+                    },
+                    {
+                        "ad": "Politologiya",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 322.3
+                    },
+                    {
+                        "ad": "Tarix",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 378.3
+                    },
+                    {
+                        "ad": "Tarix",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 294.2
+                    },
+                    {
+                        "ad": "Sosial iş",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 432.4,
+                        "bal_pullu": 376.8
+                    },
+                    {
+                        "ad": "Sosial iş",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 283.8
+                    }
+                ]
+            },
+            {
+                "universitet": "Mingəçevir Dövlət Universiteti",
+                "yer": "Mingəçevir",
+                "ixtisaslar": [
+                    {
+                        "ad": "Azərbaycan dili və ədəbiyyatı müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 521.7,
+                        "bal_pullu": 380.9
+                    },
+                    {
+                        "ad": "Dil və ədəbiyyat müəllimliyi (İngilis dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 460.1,
+                        "bal_pullu": 330.7
+                    },
+                    {
+                        "ad": "İbtidai sinif müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 464.4,
+                        "bal_pullu": 331.6
+                    },
+                    {
+                        "ad": "Məktəbəqədər təhsil",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 397.5,
+                        "bal_pullu": 260.7
+                    },
+                    {
+                        "ad": "Tarix müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 493.6,
+                        "bal_pullu": 371.5
+                    },
+                    {
+                        "ad": "Təhsildə sosial-psixoloji xidmət",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 407.6,
+                        "bal_pullu": 288.8
+                    },
+                    {
+                        "ad": "Xarici dil müəllimliyi (ingilis dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 560.7,
+                        "bal_pullu": 412.7
+                    },
+                    {
+                        "ad": "Filologiya (Azərbaycan dili və Ədəbiyyatı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 267.8
+                    },
+                    {
+                        "ad": "Tarix",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 303.3
+                    },
+                    {
+                        "ad": "Sosial iş",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 446.7,
+                        "bal_pullu": 288.3
+                    }
+                ]
+            },
+            {
+                "universitet": "Lənkəran Dövlət Universiteti",
+                "yer": "Lənkəran",
+                "ixtisaslar": [
+                    {
+                        "ad": "Azərbaycan dili və ədəbiyyatı müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 507.0,
+                        "bal_pullu": 385.6
+                    },
+                    {
+                        "ad": "İbtidai sinif müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 476.3,
+                        "bal_pullu": 330.7
+                    },
+                    {
+                        "ad": "Məktəbəqədər təhsil",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 401.7,
+                        "bal_pullu": 240.2
+                    },
+                    {
+                        "ad": "Tarix müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 492.5,
+                        "bal_pullu": 363.7
+                    },
+                    {
+                        "ad": "Təhsildə sosial-psixoloji xidmət",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 406.4,
+                        "bal_pullu": 274.1
+                    },
+                    {
+                        "ad": "Xarici dil müəllimliyi (ingilis dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 540.7,
+                        "bal_pullu": 390.5
+                    },
+                    {
+                        "ad": "Muzey, arxiv işi və abidələrin qorunması",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 232.2
+                    },
+                    {
+                        "ad": "Muzey, arxiv işi və abidələrin qorunması",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 395.5,
+                        "bal_pullu": 228.2
+                    },
+                    {
+                        "ad": "Sosial iş",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 435.6,
+                        "bal_pullu": 285.3
+                    },
+                    {
+                        "ad": "Sosial iş",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 239.9
+                    }
+                ]
+            },
+            {
+                "universitet": "Qarabağ Universiteti",
+                "yer": "Qarabağ",
+                "ixtisaslar": [
+                    {
+                        "ad": "Azərbaycan dili və ədəbiyyatı müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 509.2,
+                        "bal_pullu": 509.2
+                    },
+                    {
+                        "ad": "İbtidai sinif müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 439.4,
+                        "bal_pullu": 439.4
+                    },
+                    {
+                        "ad": "Xarici dil müəllimliyi (ingilis dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 538.7,
+                        "bal_pullu": 538.7
+                    },
+                    {
+                        "ad": "Beynəlxalq münasibətlər",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": 408.4,
+                        "bal_pullu": 408.4
+                    },
+                    {
+                        "ad": "Hüquqşünaslıq",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 609.4,
+                        "bal_pullu": 609.4
+                    },
+                    {
+                        "ad": "Tarix",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 520.4,
+                        "bal_pullu": 520.4
+                    }
+                ]
+            },
+            {
+                "universitet": "Azərbaycan İlahiyyat İnstitutu",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Dinşünashq",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 289.1,
+                        "bal_pullu": 289.1
+                    },
+                    {
+                        "ad": "İslamşünaslıq",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 166.4,
+                        "bal_pullu": 166.4
+                    }
+                ]
+            },
+            {
+                "universitet": "Azərbaycan Kooperasiya Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Təhsildə sosial-psixoloji xidmət",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 223.9
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Avropa ölkələri üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 181.8
+                    },
+                    {
+                        "ad": "Tərcümə (ingilis dili)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Muzey, arxiv işi və abidələrin qorunması",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 209.0
+                    },
+                    {
+                        "ad": "Sosial iş",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 230.7
+                    },
+                    {
+                        "ad": "Sosial iş",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 219.5
+                    }
+                ]
+            },
+            {
+                "universitet": "“Azərbaycan ” Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Korreksiyaedici təlim",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 245.7
+                    },
+                    {
+                        "ad": "Təhsildə sosial-psixoloji xidmət",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 405.7,
+                        "bal_pullu": 307.2
+                    },
+                    {
+                        "ad": "Beynəlxalq münasibətlər",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 218.6
+                    },
+                    {
+                        "ad": "Dövlət və ictimai münasibətlər",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 313.0
+                    },
+                    {
+                        "ad": "Fəlsəfə",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Filologiya (Azərbaycan dili və Ədəbiyyatı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 296.3
+                    },
+                    {
+                        "ad": "Filologiya (ingilis dili və ədəbiyyatı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 245.3
+                    },
+                    {
+                        "ad": "Politologiya",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 220.8
+                    },
+                    {
+                        "ad": "Regionşünaslıq",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 187.4
+                    },
+                    {
+                        "ad": "Tarix",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 308.8
+                    },
+                    {
+                        "ad": "Tərcümə (ingilis dili)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Muzey, arxiv işi və abidələrin qorunması",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 373.4,
+                        "bal_pullu": 217.7
+                    },
+                    {
+                        "ad": "Sosial iş",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 434.0,
+                        "bal_pullu": 228.0
+                    },
+                    {
+                        "ad": "Sosial iş",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 238.4
+                    },
+                    {
+                        "ad": "Sosial iş",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 443.5,
+                        "bal_pullu": 285.2
+                    }
+                ]
+            },
+            {
+                "universitet": "Qərbi Kaspi Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Təhsildə sosial-psixoloji xidmət",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 404.6,
+                        "bal_pullu": 246.4
+                    },
+                    {
+                        "ad": "Beynəlxalq münasibətlər",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 243.7
+                    },
+                    {
+                        "ad": "Fəlsəfə",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 427.0,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Filologiya (Azərbaycan dili və Ədəbiyyatı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 222.8
+                    },
+                    {
+                        "ad": "Filologiya (ingilis dili və ədəbiyyatı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Politologiya",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Regionlar üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 189.9
+                    },
+                    {
+                        "ad": "Tarix",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 206.8
+                    },
+                    {
+                        "ad": "Tərcümə (ingilis dili)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Sosial iş",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 452.1,
+                        "bal_pullu": 226.9
+                    }
+                ]
+            },
+            {
+                "universitet": "Xəzər Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Azərbaycan dili və ədəbiyyatı müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 506.4,
+                        "bal_pullu": 378.7
+                    },
+                    {
+                        "ad": "İbtidai sinif müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 464.0,
+                        "bal_pullu": 287.0
+                    },
+                    {
+                        "ad": "İbtidai sinif müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 463.7,
+                        "bal_pullu": 330.6
+                    },
+                    {
+                        "ad": "Tarix müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 490.0,
+                        "bal_pullu": 324.8
+                    },
+                    {
+                        "ad": "Xarici dil müəllimliyi (ingilis dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 540.5,
+                        "bal_pullu": 540.5
+                    },
+                    {
+                        "ad": "Beynəlxalq münasibətlər",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": 469.8,
+                        "bal_pullu": 327.7
+                    },
+                    {
+                        "ad": "Filologiya (Azərbaycan dili və Ədəbiyyatı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 489.4,
+                        "bal_pullu": 253.1
+                    },
+                    {
+                        "ad": "Filologiya (ingilis dili və ədəbiyyatı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 488.7,
+                        "bal_pullu": 258.0
+                    },
+                    {
+                        "ad": "Politologiya",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 526.1,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Amerikaşünaslıq)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": 383.3,
+                        "bal_pullu": 204.7
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Avropaşünaslıq)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": 383.3,
+                        "bal_pullu": 204.7
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Şərqşünaslıq)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": 383.3,
+                        "bal_pullu": 204.7
+                    },
+                    {
+                        "ad": "Regionşünaslıq (Asiyaşünaslıq)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": 383.3,
+                        "bal_pullu": 204.7
+                    },
+                    {
+                        "ad": "Tərcümə (İngilis dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 476.7,
+                        "bal_pullu": 257.2
+                    },
+                    {
+                        "ad": "Tərcümə (ərəb dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Ərəb",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 476.7,
+                        "bal_pullu": 257.2
+                    },
+                    {
+                        "ad": "Tərcümə (fars dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Fars",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 476.7,
+                        "bal_pullu": 257.2
+                    },
+                    {
+                        "ad": "Tərcümə (Çin dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Çin",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 476.7,
+                        "bal_pullu": 257.2
+                    }
+                ]
+            },
+            {
+                "universitet": "Bakı Avrasiya Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Beynəlxalq münasibətlər",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 235.6
+                    },
+                    {
+                        "ad": "Beynəlxalq münasibətlər",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Filologiya (Azərbaycan dili və Ədəbiyyatı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 283.0
+                    },
+                    {
+                        "ad": "Filologiya (Azərbaycan dili və Ədəbiyyatı)",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 270.1
+                    },
+                    {
+                        "ad": "Filologiya (ingilis dili və ədəbiyyatı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 234.2
+                    },
+                    {
+                        "ad": "Filologiya (ingilis dili və ədəbiyyatı)",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 258.5
+                    },
+                    {
+                        "ad": "Filologiya (türk dili və ədəbiyyatı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Türk",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Regionşünaslıq (ABŞ, Kanada, Avropa ölkələri, Yaxın və Orta Şərq üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 185.1
+                    },
+                    {
+                        "ad": "Regionşünaslıq (ABŞ, Kanada, Avropa ölkələri, Yaxın və Orta Şərq üzrə)",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 197.7
+                    },
+                    {
+                        "ad": "Tərcümə (ingilis dili)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 233.8
+                    },
+                    {
+                        "ad": "Tərcümə (Alman dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Alman",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Tərcümə (fransız dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Fransız",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Tərcümə (ərəb dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Ərəb",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Sosial iş",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 244.2
+                    },
+                    {
+                        "ad": "Sosial iş",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 239.1
+                    }
+                ]
+            },
+            {
+                "universitet": "Bakı Qızlar Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Azərbaycan dili və ədəbiyyatı müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 360.3
+                    },
+                    {
+                        "ad": "İbtidai sinif müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 335.3
+                    },
+                    {
+                        "ad": "Məktəbəqədər təhsil",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 390.1,
+                        "bal_pullu": 261.8
+                    },
+                    {
+                        "ad": "Tarix müəllimliyi",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 328.1
+                    },
+                    {
+                        "ad": "Təhsildə sosial-psixoloji xidmət",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 408.9,
+                        "bal_pullu": 273.8
+                    },
+                    {
+                        "ad": "Xarici dil müəllimliyi (ingilis dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 384.9
+                    }
+                ]
+            },
+            {
+                "universitet": "“Odlar Yurdu ” Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Məktəbəqədər təhsil",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 403.8,
+                        "bal_pullu": 201.3
+                    },
+                    {
+                        "ad": "Təhsildə sosial-psixoloji xidmət",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 406.0,
+                        "bal_pullu": 233.4
+                    },
+                    {
+                        "ad": "Xarici dil müəllimliyi (ingilis dili üzrə)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 337.9
+                    },
+                    {
+                        "ad": "Beynəlxalq münasibətlər",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "TC",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Filologiya (Azərbaycan dili və Ədəbiyyatı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 209.2
+                    },
+                    {
+                        "ad": "Filologiya (ingilis dili və ədəbiyyatı)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 211.6
+                    },
+                    {
+                        "ad": "Tərcümə (ingilis dili)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Sosial iş",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 231.4
+                    },
+                    {
+                        "ad": "Sosial iş",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 437.0,
+                        "bal_pullu": 243.4
+                    }
+                ]
+            },
+            {
+                "universitet": "Bakı Biznes Universiteti",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Tərcümə (ingilis dili)",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "İngilis",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 200.0
+                    },
+                    {
+                        "ad": "Sosial iş",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 438.1,
+                        "bal_pullu": 239.9
+                    },
+                    {
+                        "ad": "Sosial iş",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 249.8
+                    }
+                ]
+            },
+            {
+                "universitet": "Azərbaycan Əmək və Sosial Münasibətlər Akademiyası",
+                "yer": "Bakı",
+                "ixtisaslar": [
+                    {
+                        "ad": "Sosial iş",
+                        "tehsil_formasi": "Əyani",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": 443.5,
+                        "bal_pullu": 235.2
+                    },
+                    {
+                        "ad": "Sosial ış",
+                        "tehsil_formasi": "Qiyabi",
+                        "dil": "Azərbaycan",
+                        "alt_qrup": "DT",
+                        "bal_pulsuz": null,
+                        "bal_pullu": 239.7
+                    }
+                ]
+            }
+        ]
+    }
+]

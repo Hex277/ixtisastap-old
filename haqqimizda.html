@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Haqqımızda | IxtisasTap.com</title>
+  <link rel="stylesheet" href="qruplar.css">
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+      background-color: #ffffff;
+      color: #222222;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    body.dark-mode {
+      background-color: #121212;
+      color: #f0f0f0;
+    }
+
+    h1 {
+      color: #222222;
+      transition: color 0.3s;
+    }
+
+    body.dark-mode h1 {
+      color: #ffffff;
+    }
+
+    p {
+      color: #333333;
+      transition: color 0.3s;
+    }
+
+    body.dark-mode p {
+      color: #dddddd;
+    }
+
+    .main-content {
+      flex: 1;
+    }
+
+    .text-bar p {
+      justify-content: center;
+      padding: 3px 20px;
+    }
+
+    .site-footer {
+      text-align: center;
+      padding: 20px 10px;
+      background-color: transparent;
+      color: inherit;
+      font-size: 14px;
+    }
+
+    
+
+
+  </style>
+</head>
+<body>
+  
+  <button id="menu-toggle">
+    <img id="menu" src="menu-bar.png" alt="menu" width="20" class="menu" loading="lazy">
+  </button>
+  <nav id="menu-bar" class="hidden">
+    <p id="name-text">IxtisasTap.com</p>
+    <ul>
+      <li><a href="./1ciqrup.html">1ci Qrup</a></li>
+      <li><a href="./2ciqrup.html">2ci Qrup</a></li>
+      <li><a href="./3ciqrup.html">3cü Qrup</a></li>
+      <li><a href="./4ciqrup.html">4cü Qrup</a></li>
+      <li><a href="./5ciqrup.html">5ci Qrup</a></li>
+      <li><a href="./haqqimizda.html" class="active">Haqqımızda</a></li>
+    </ul>
+  </nav>
+
+<div class="main-content">
+    <button id="toggle-dark-mode">
+      <img id="icon" src="sun.png" alt="rejim" width="20" class="white-icon" loading="lazy">
+    </button>
+
+    <div class="text-bar">
+      <h1>Haqqımızda</h1>
+
+      <section class="info-section">
+        <p>Sayt Azərbaycanda ixtisas seçimi prosesini köklü şəkildə dəyişdirmək üçün yaradılıb. Təhsil sahəsində mövcud olan məlumatların çoxluğu və dağınıqlığı istifadəçilərin doğru ixtisas tapmasına mane olur. Məqsədimiz, tələbələrə və ixtisas axtaranlara ən dolğun, ən aktual və ən əlçatan məlumatları təqdim etməklə, seçim prosesini asanlaşdırmaqdır.</p>
+
+        <p>Saytımızda müxtəlif ixtisaslar və onlara aid geniş məlumat bazası bir araya gətirilib. Biz, ən yeni təhsil trendlərini izləyir, istifadəçilərimizin ehtiyaclarını nəzərə alaraq daima məlumat bazamızı yeniləyirik. İxtisaslar haqqında təqdim etdiyimiz məlumatlar, təhsil müəssisələrinin proqramları, ixtisasın gələcək perspektivləri və iş imkanları kimi vacib aspektləri əhatə edir.</p>
+
+        <p>Biz, istifadəçi təcrübəsini ön planda saxlayırıq. Saytımızda intuitiv axtarış sistemi, asan anlaşılan interfeys və geniş filtrasiya imkanları vasitəsilə hər kəs öz ehtiyacına uyğun ixtisası rahatlıqla tapa bilər. Məqsədimiz, Azərbaycanda təhsil sahəsində qabaqcıl və etibarlı platforma olmaqdır.</p>
+
+        <p>İstifadəçilərimizin rəyləri bizim üçün önəmlidir. Hər zaman sizin fikirlərinizi dinləyir, saytımızı daha da təkmilləşdirmək üçün çalışırıq. İxtisas seçiminizdə sizə yol göstərmək bizim əsas məqsədimizdir.</p>
+      </section>
+
+      <h1>Əlaqə</h1>
+      <section class="contact-section">
+        <p><strong>Email:</strong> ixtisastap@gmail.com</p>
+        <p><strong>Telefon:</strong> +994 xx xxx xx xx</p>
+        <p><strong>Ünvan:</strong> Bakı, Azərbaycan</p>
+      </section>
+
+      <footer class="site-footer">
+        <p>&copy; 2025 ixtisastap.com. Bütün hüquqlar qorunur.</p>
+      </footer>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+<script>
+  const toggleDarkMode = document.getElementById("toggle-dark-mode");
+  const icon = document.getElementById("icon");
+
+  // Əvvəlki vəziyyəti yadda saxla
+  const savedTheme = localStorage.getItem("theme");
+  if (savedTheme === "dark") {
+    document.body.classList.add("dark-mode");
+    icon.src = "moon.png"; // Dark mode üçün ikon
+  }
+
+  toggleDarkMode.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+
+    if (document.body.classList.contains("dark-mode")) {
+      icon.src = "sun.png";
+      localStorage.setItem("theme", "dark");
+    } else {
+      icon.src = "moon.png";
+      localStorage.setItem("theme", "light");
+    }
+  });
+</script>
+</body>
+</html>

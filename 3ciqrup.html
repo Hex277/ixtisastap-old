@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3cü Qrup Ixtisas Siyahısı 2025</title>
+  <link rel="stylesheet" href="qruplar.css">
+</head>
+<body>
+  
+  <button id="menu-toggle">
+    <img id="menu" src="menu-bar.png" alt="menu" width="20" class="menu" loading="lazy">
+  </button>
+  <button id="scrollTopBtn" class="scroll-top-btn">
+    <img id="scroll-up" src="up-arrow.png" alt="menu" width="20" class="scroll-up" loading="lazy">
+  </button>
+  <nav id="menu-bar" class="hidden">
+    <p id="name-text">IxtisasTap.com</p>
+    <ul>
+      <li><a href="./1ciqrup.html">1ci Qrup</a></li>
+      <li><a href="./2ciqrup.html">2ci Qrup</a></li>
+      <li><a href="./3ciqrup.html">3cü Qrup</a></li>
+      <li><a href="./4ciqrup.html">4cü Qrup</a></li>
+      <li><a href="./5ciqrup.html">5ci Qrup</a></li>
+      <li><a href="./haqqimizda.html">Haqqımızda</a></li>
+    </ul>
+  </nav>
+
+<div class="main-content">
+  <button id="toggle-dark-mode">
+    <img id="icon" src="sun.png" alt="rejim" width="20" class="white-icon" loading="lazy">
+  </button>
+  <h1>3cü Qrup Ixtisaslar 2025</h1>
+
+  <div class="filter-bar" style="margin-bottom: 15px;">
+    <input type="text" id="search" placeholder="Ixtisas axtar..." width="270px">
+    <button id="searchBtn" style="padding: 8px;">Axtar</button>
+    <select id="tehsilSelect">
+        <option value="">Əyani / Qiyabi</option>
+        <option value="Əyani">Əyani</option>
+        <option value="Qiyabi">Qiyabi</option>
+    </select>
+
+    <select id="dilSelect">
+        <option value="">Bütün dillər</option>
+        <option value="Azərbaycan">Azərbaycan</option>
+        <option value="İngilis">İngilis</option>
+        <option value="Türk">Türk</option>
+        <option value="Rus">rus</option>
+        <option value="Çin">Çin</option>
+        <option value="Ərəb">Ərəb</option>
+        <option value="Fars">Fars</option>
+        <option value="Ukrayna">Ukrayna</option>
+        <option value="Fransız">Fransız</option>
+        <option value="Koreya">Koreya</option>
+        <option value="Çex">Çex</option>
+        <option value="Polyak">Polyak</option>
+        <option value="İspan">İspan</option>
+        <option value="erməni">erməni</option>
+    </select>
+
+    <select id="altSelect">
+        <option value="">Bütün alt qruplar</option>
+        <option value="DT">DT</option>
+        <option value="TC">TC</option>
+    </select>
+    <select id="locationSelect">
+      <option value="">Bütün şəhərlər</option>
+      <option value="Bakı">Bakı</option>
+      <option value="Sumqayıt">Sumqayıt</option>
+      <option value="Naxçıvan">Naxçıvan</option>
+      <option value="Gəncə">Gəncə</option>
+      <option value="Mingəçevir">Mingəçevir</option>
+      <option value="Lənkəran">Lənkəran</option>
+      <option value="Qarabağ">Qarabağ</option>
+    </select>
+      
+    <p id="resultCount" style="margin-bottom: 10px; font-weight: bold;"></p>  
+  </div>
+
+
+  <div id="table-container" class="table-view" style="height: 500px; overflow-y: auto;"></div>
+  <div id="card-container" class="card-view"></div>
+</div>
+
+<script>
+  const totalRows = 100;
+  const rowHeight = 40;
+
+  const tableContainer = document.getElementById('table-container');
+  const cardContainer = document.getElementById('card-container');
+
+  const isMobile = () => window.innerWidth <= 768;
+
+  function setupTableView() {
+    const table = document.createElement('table');
+    const thead = document.createElement('thead');
+    table.appendChild(thead);
+
+    const tbody = document.createElement('tbody');
+    table.appendChild(tbody);
+    tableContainer.appendChild(table);
+
+    const visibleCount = Math.ceil(tableContainer.clientHeight / rowHeight) + 5;
+
+    function createRow(index) {
+      const tr = document.createElement('tr');
+      tr.style.height = rowHeight + 'px';
+      return tr;
+    }
+
+    function renderRows(start) {
+      tbody.innerHTML = '';
+      const fragment = document.createDocumentFragment();
+
+      for (let i = start; i < start + visibleCount && i < totalRows; i++) {
+        fragment.appendChild(createRow(i));
+      }
+      tbody.appendChild(fragment);
+    }
+
+    function onScroll() {
+      const scrollTop = tableContainer.scrollTop;
+      const startRow = Math.floor(scrollTop / rowHeight);
+      renderRows(startRow);
+    }
+
+    renderRows(0);
+    tableContainer.addEventListener('scroll', onScroll);
+  }
+
+  function setupCardView() {
+    cardContainer.innerHTML = '';
+
+    for (let i = 0; i < totalRows; i++) {
+      const card = document.createElement('div');
+      card.className = 'card-item';
+      cardContainer.appendChild(card);
+    }
+  }
+
+  function renderView() {
+    if (isMobile()) {
+      tableContainer.style.display = 'none';
+      cardContainer.style.display = 'block';
+      setupCardView();
+    } else {
+      cardContainer.style.display = 'none';
+      tableContainer.style.display = 'block';
+      setupTableView();
+    }
+  }
+
+  let currentIsMobile = isMobile();
+
+  window.addEventListener('resize', () => {
+    const newIsMobile = isMobile();
+    if (newIsMobile !== currentIsMobile) {
+      currentIsMobile = newIsMobile;
+      renderView(); // sadəcə görünüşü yenilə, reload etmə
+    }
+  });
+
+</script>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
