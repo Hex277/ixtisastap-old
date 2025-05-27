@@ -27,8 +27,8 @@ h1 {
 }
 
 .uni-basliq {
-  margin-top: 40px;
-  font-size: 18px;
+  margin-top: 70px;
+  font-size: 20px;
   color: #007BFF;
 }
 
@@ -77,12 +77,11 @@ tr.even-row {
 .filter-bar {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 13px;
   margin-bottom: 25px;
   justify-content: center;
   align-items: center;
-  position: relative; /* required for absolute positioning inside */
-  padding-bottom: 30px; /* space for #resultCount */
+  position: relative; 
   background-color: transparent;
   z-index: 998;
 }
@@ -96,6 +95,7 @@ select {
   border-radius: 5px;
   transition: 0.3s ease;
   width: auto;
+  max-width: 325px;
 }
 
 input[type="text"]:focus,
@@ -225,7 +225,7 @@ body.dark-mode {
 body.dark-mode h1,
 body.dark-mode .qrup-basliq,
 body.dark-mode .uni-basliq {
-  color: #aad4ff;
+  color: #e3f1ff;
 }
 
 body.dark-mode table {
@@ -279,34 +279,6 @@ body.dark-mode #menu-bar a {
 body.dark-mode #menu-bar a:hover {
   color: #00aced;
 }
-/* ==============================
-   ScrollBtn
-============================== */
-#scrollTopBtn {
-  position: fixed;
-  bottom: 15px;
-  right: 10px;
-  padding: 9px 11px;
-  background-color: #1E90FF;
-  color: white;
-  border: none;
-  border-radius: 10px;
-  font-size: 20px;
-  cursor: pointer;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-  z-index: 999;
-  display: none;
-  transition: opacity 0.3s ease;
-}
-
-#scrollTopBtn.show {
-  display: block;
-}
-#scroll-up {
-  margin-top: 0px;
-  filter: invert(1);
-}
-
 /* ==============================
    DARK MODE DÜYMƏSİ
 ============================== */
@@ -397,7 +369,7 @@ body.dark-mode #menu-bar a:hover {
 
   #card-container {
     display: block;
-    margin-top: -70px;
+    margin-top: -40px;
   }
 
   .filter-bar {
@@ -409,7 +381,6 @@ body.dark-mode #menu-bar a:hover {
     width: 100%;
     max-width: 350px;
   }
-
   .card {
     background: #f9f9f9;
     border: 1px solid #ccc;

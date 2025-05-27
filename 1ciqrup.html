@@ -11,9 +11,7 @@
   <button id="menu-toggle">
     <img id="menu" src="menu-bar.png" alt="menu" width="20" class="menu" loading="lazy">
   </button>
-  <button id="scrollTopBtn" class="scroll-top-btn">
-    <img id="scroll-up" src="up-arrow.png" alt="menu" width="20" class="scroll-up" loading="lazy">
-  </button>
+
   <nav id="menu-bar" class="hidden">
     <p id="name-text">IxtisasTap.com</p>
     <ul>
@@ -34,7 +32,7 @@
   <h1>1ci Qrup Ixtisaslar 2025</h1>
 
   <div class="filter-bar" style="margin-bottom: 15px;">
-    <input type="text" id="search" placeholder="Ixtisas axtar..." width="270px">
+    <input type="text" id="search" placeholder="Ixtisas axtar...">
     <button id="searchBtn" style="padding: 8px;">Axtar</button>
     <select id="tehsilSelect">
         <option value="">Əyani / Qiyabi</option>
@@ -109,15 +107,6 @@
       }
       tbody.appendChild(fragment);
     }
-
-    function onScroll() {
-      const scrollTop = tableContainer.scrollTop;
-      const startRow = Math.floor(scrollTop / rowHeight);
-      renderRows(startRow);
-    }
-
-    renderRows(0);
-    tableContainer.addEventListener('scroll', onScroll);
   }
 
   function setupCardView() {
