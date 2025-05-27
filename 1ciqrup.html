@@ -107,6 +107,15 @@
       }
       tbody.appendChild(fragment);
     }
+
+    function onScroll() {
+      const scrollTop = tableContainer.scrollTop;
+      const startRow = Math.floor(scrollTop / rowHeight);
+      renderRows(startRow);
+    }
+
+    renderRows(0);
+    tableContainer.addEventListener('scroll', onScroll);
   }
 
   function setupCardView() {
