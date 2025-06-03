@@ -68,25 +68,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function handleGesture() {
     const swipeDistance = touchStartX - touchEndX;
-    const minSwipeDistance = 50; // Minimum sürüşdürmə məsafəsi (piksel)
-
-    // sola sürüşdürdüsə və məsafə kifayət qədərdirsə
-    if (swipeDistance > minSwipeDistance) {
+    const minSwipeDistance = 50;
+  
+    // sola sürüşdürmə (bağla)
+    if (swipeDistance > minSwipeDistance && !menuBar.classList.contains('hidden')) {
       menuBar.classList.add("hidden");
     }
+  
+    // sağa sürüşdürmə (aç)
+    if (swipeDistance < -minSwipeDistance && menuBar.classList.contains('hidden')) {
+      menuBar.classList.remove("hidden");
+    }
   }
-
-  // Əgər ekran 768 piksel və ya kiçikdirsə, swipe aktivləşdirilir
-  if (window.innerWidth <= 768) {
-    menuBar.addEventListener("touchstart", (e) => {
-      touchStartX = e.changedTouches[0].screenX;
-    });
-
-    menuBar.addEventListener("touchend", (e) => {
-      touchEndX = e.changedTouches[0].screenX;
-      handleGesture();
-    });
-  }
+  
 });
 
 function setupEventListeners() {

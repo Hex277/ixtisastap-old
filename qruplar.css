@@ -118,7 +118,6 @@ select:focus {
   justify-content: center;
   align-items: center;
   gap: 5px;
-  margin-top: 10px;
 }
 .score-range input {
   padding: 10px;
