@@ -209,6 +209,7 @@ function renderData(data) {
     cardContainer.style.display = "none";
     tableContainer.style.display = "block";
   }
+  setupEventListeners();
 }
 document.addEventListener('DOMContentLoaded', () => {
   const filterBar = document.querySelector('.filter-bar');
@@ -306,8 +307,9 @@ function setupEventListeners() {
 
   const minScoreInput = document.getElementById("minScore");
   const maxScoreInput = document.getElementById("maxScore");
-
-  // Əvvəlki hadisələri təmizlə
+  
+  if (!searchInput || !tehsilSelect || !dilSelect || !altSelect || !locationSelect) return;
+  // Əvvəlki hadisələri təmizlə 
   searchInput.removeEventListener("input", applyFilters);
   tehsilSelect.removeEventListener("change", applyFilters);
   dilSelect.removeEventListener("change", applyFilters);
@@ -317,16 +319,14 @@ function setupEventListeners() {
   maxScoreInput?.removeEventListener("input", applyFilters);
 
   if (window.innerWidth > 768) {
-    // ✅ Desktop üçün input hadisələri
     searchInput.addEventListener("input", applyFilters);
-    minScoreInput?.addEventListener("input", applyFilters);
-    maxScoreInput?.addEventListener("input", applyFilters);
   } else {
-    // ✅ Mobil üçün yalnız düymə ilə axtarış
     const searchBtn = document.getElementById("searchBtn");
-    searchBtn.addEventListener("click", applyFilters);
+    if (searchBtn) {
+      searchBtn.removeEventListener("click", applyFilters);
+      searchBtn.addEventListener("click", applyFilters);
+    }
   }
-
   // Hər iki rejimdə aşağıdakılar işə düşür
   tehsilSelect.addEventListener("change", applyFilters);
   dilSelect.addEventListener("change", applyFilters);
