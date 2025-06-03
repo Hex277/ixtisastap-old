@@ -77,14 +77,24 @@ tr.even-row {
 .filter-bar {
   display: flex;
   flex-wrap: wrap;
-  gap: 13px;
-  margin-bottom: 25px;
+  gap: 8px;
   justify-content: center;
   align-items: center;
   position: relative; 
-  background-color: transparent;
+  background-color: #f0f0f0;
   z-index: 998;
 }
+.search-bar {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center;     /* Vertical centering */
+  gap: 10px; 
+}
+
+#search {
+  max-width: 700px;
+}
+
 
 
 input[type="text"],
@@ -103,6 +113,28 @@ select:focus {
   border-color: #1e62d0;
   outline: none;
 }
+.score-range {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+.score-range input {
+  padding: 10px;
+  font-size: 15px;
+  border: 2px solid #4a90e2;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  width: auto;
+  max-width: 55px;
+}
+.score-range input:focus {
+  border-color: #1e62d0;
+  outline: none;
+}
+
+
 
 #search {
   position: relative;
@@ -115,6 +147,7 @@ select {
 select:hover {
   border-color: #1e62d0;
 }
+
 #resultCount {
   position: relative;
   left: 10px;
@@ -129,7 +162,7 @@ select:hover {
 button {
   padding: 10px 20px;
   font-size: 15px;
-  background-color: #007BFF;
+  background-color: #1E90FF;
   color: white;
   border: none;
   border-radius: 5px;
@@ -170,13 +203,6 @@ button:hover {
   height: 100%;
   width: 60%;
 }
-#name-text {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 26px;
-  color: #1E90FF; 
-  text-align: center;
-  margin-top: 20px;
-}
 
 #menu-bar ul {
   list-style: none;
@@ -189,7 +215,7 @@ button:hover {
 #menu-bar li {
   margin-bottom: 10px;
 }
-#menu-bar a {
+#menu-bar a:not(#name-text) {
   display: block;                /* Makes it behave like a block/button */
   width: 100%;                   /* Make all links same width */
   padding: 5px 0;               /* Padding for height */
@@ -208,12 +234,35 @@ button:hover {
 #menu-bar a:hover {
   transform: scale(1.02);        /* Slight zoom on hover */
 }
+.hidden {
+  display: none;
+}
+
+#name-text {
+  transition: none;
+  display: inline-block;
+  font-size: 23px;
+  color: #1E90FF !important; 
+  margin-top: 20px;
+  text-decoration: none;
+  margin-left: 5%;
+  cursor: default;
+}
 
 
 .hidden {
   display: none;
 }
-
+.header {
+  background-color: #1E90FF;
+  color: white;
+  padding: 40px 20px;
+}
+.header h1{
+  background-color: #1E90FF;
+  color: white;
+  padding: 20px 20px;
+}
 /* ==============================
    DARK MODE
 ============================== */
@@ -234,7 +283,7 @@ body.dark-mode table {
 }
 
 body.dark-mode th {
-  background-color: #2d5c99;
+  background-color: #1E90FF;
   color: #f1f1f1;
 }
 
@@ -257,9 +306,13 @@ body.dark-mode select {
   color: #eee;
   border: 2px solid #555;
 }
-
+body.dark-mode .score-range input {
+  border: 2px solid #555;
+  background-color: #222;
+  color: #eee;
+}
 body.dark-mode button {
-  background-color: #2d5c99;
+  background-color: #1E90FF;
   color: #eee;
 }
 
@@ -271,18 +324,76 @@ body.dark-mode #menu-bar {
   background-color: #333;
   border-color: #555;
 }
-
-body.dark-mode #menu-bar a {
+body.dark-mode .filter-bar {
+  background-color: #121212;
+}
+body.dark-mode #menu-bar a:not(#name-text) {
   color: #fff;
 }
 
 body.dark-mode #menu-bar a:hover {
   color: #00aced;
 }
+
+
+#language-selector {
+  right: 60px;
+  top: 13px;
+  width: 43px;
+  height: 36px;
+  padding: 4px 0px;
+  font-size: 17px;
+  background-color: transparent;
+  border: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body.dark-mode #language-selector option {
+  background-color: #222222;
+  color: white;
+}
+body.dark-mode .menu-button {
+  background-color: #121212;
+}
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 40px 20px;
+}
+
+.menu-button {
+  display: block;
+  width: 200px;
+  padding: 15px;
+  background-color: #ffffff;
+  border: 2px solid #1E90FF;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #1E90FF;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.menu-button:hover {
+  background-color: #1E90FF;
+  color: white;
+}
 /* ==============================
    DARK MODE DÜYMƏSİ
 ============================== */
-
+#toggle-dark-mode {
+  position: absolute;
+  top: 13px;
+  right: 15px;
+  padding: 4px 10px;
+  background-color: #1E90FF;
+  color: white;
+  width: 40px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+}
 #toggle-dark-mode img {
   margin-top: 3px;
 }
@@ -302,32 +413,41 @@ body.dark-mode #menu-bar a:hover {
 @media (min-width: 769px) {
   #toggle-dark-mode {
     position: fixed;
-    top: 13px;
-    right: 15px;
-    padding: 4px 10px;
-    background-color: #1E90FF;
-    color: white;
-    width: 40px;
-    font-size: 20px;
-    border: none;
-    border-radius: 10px;
   }
+  #language-selector {
+    position: fixed;
+  }
+  
   .main-content {
     position: fixed;
     margin-left: 200px; /* Same width as your menu bar */
-    padding: 10px;       /* Optional: adds spacing */
+    padding: 5px; 
+    padding-right: 0px;
     top: -30px;
+  }
+  .search-bar {
+    padding: 5px 10px;
+    flex-wrap: wrap;  
+  }
+  .filter-bar {
+    padding: 15px 30px;
   }
   #resultCount {
     position: absolute;
-    margin-top: 90px;
+    margin-top: 78px;
   }
 
   #table-container {
-    position: absolute;
-    display: block;
-    top: 220px;
-    padding-right: 10px;
+    position: relative;
+    top: 0px;
+    left: 0;
+    right: 0;
+    padding: 0 3px;
+    width: auto;
+    height: 500px; 
+    overflow-y: auto;
+    overflow-x: auto;
+    min-width: unset; 
   }
 
   #card-container {
@@ -346,6 +466,9 @@ body.dark-mode #menu-bar a:hover {
     width: 180px;
     display: block !important;
   }
+  #filterToggleBtn {
+    display: none;
+  }
 
 }
 
@@ -353,16 +476,11 @@ body.dark-mode #menu-bar a:hover {
 @media (max-width: 768px) {
   #toggle-dark-mode {
     position: absolute;
-    top: 13px;
-    right: 15px;
-    padding: 4px 10px;
-    background-color: #1E90FF;
-    color: white;
-    width: 40px;
-    font-size: 20px;
-    border: none;
-    border-radius: 10px;
   }
+  #language-selector {
+    position: absolute;
+  }
+
   #table-container {
     display: none;
   }
@@ -371,15 +489,42 @@ body.dark-mode #menu-bar a:hover {
     display: block;
     margin-top: -40px;
   }
-
-  .filter-bar {
-    flex-direction: column;
-    align-items: stretch;
+  #resultCount {
+    margin-top: 20px;
+  }
+  #filterToggleBtn {
+    position: relative;
+    margin-top: 10px;
+    background-color: #1E90FF;
+    color: white;
+    width: 85px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    gap: 6px; /* ikonla yazı arasında məsafə */
+    padding: 8px 12px;
+    justify-content: center;
   }
 
-  .filter-bar > * {
+  .filter-bar, .search-bar{
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 10px;
+  }
+
+  .filter-bar > *, .search-bar > *{
     width: 100%;
-    max-width: 350px;
+    max-width: 700px;
+    margin-top: 10px;
+  }
+  .filter-bar {
+    display: none;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  .filter-bar.show {
+    display: flex;
   }
   .card {
     background: #f9f9f9;
@@ -446,10 +591,9 @@ body.dark-mode #menu-bar a:hover {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  max-width: 400px;
+  max-width: 800px;
 }
 
-/* gizlətmək üçün sinif */
 .hidden {
   display: none;
 }

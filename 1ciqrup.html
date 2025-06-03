@@ -1,58 +1,66 @@
 <!DOCTYPE html>
-<html lang="az">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>1ci Qrup Ixtisas Siyahısı 2025</title>
+  <title>IxtisasTap.com | Group 1 Specialties 2025</title>
   <link rel="stylesheet" href="qruplar.css">
+  <link rel="icon" href="logo.png" type="image/png">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8653707665334072"
+     crossorigin="anonymous"></script>
 </head>
 <body>
-  
   <button id="menu-toggle">
     <img id="menu" src="menu-bar.png" alt="menu" width="20" class="menu" loading="lazy">
   </button>
 
   <nav id="menu-bar" class="hidden">
-    <p id="name-text">IxtisasTap.com</p>
+    <a href="index.html" id="name-text"><b data-i18n="siteName">IxtisasTap.com</b></a>
     <ul>
-      <li><a href="./1ciqrup.html">1ci Qrup</a></li>
-      <li><a href="./2ciqrup.html">2ci Qrup</a></li>
-      <li><a href="./3ciqrup.html">3cü Qrup</a></li>
-      <li><a href="./4ciqrup.html">4cü Qrup</a></li>
-      <li><a href="./5ciqrup.html">5ci Qrup</a></li>
-      <li><a href="./haqqimizda.html">Haqqımızda</a></li>
+      <li><a href="./1ciqrup.html" data-i18n="group1">Group 1</a></li>
+      <li><a href="./2ciqrup.html" data-i18n="group2">Group 2</a></li>
+      <li><a href="./3ciqrup.html" data-i18n="group3">Group 3</a></li>
+      <li><a href="./4ciqrup.html" data-i18n="group4">Group 4</a></li>
+      <li><a href="./5ciqrup.html" data-i18n="group5">Group 5 (coming soon)</a></li>
+      <li><a href="./haqqimizda.html" data-i18n="about">About Us & Co</a></li>
     </ul>
   </nav>
-
 <div class="main-content">
   <button id="toggle-dark-mode">
     <img id="icon" src="sun.png" alt="rejim" width="20" class="white-icon" loading="lazy">
   </button>
+  <select id="language-selector">
+    <option value="en" selected>EN</option>
+    <option value="az">AZ</option>
+    <option value="tr">TR</option>
+  </select>  
+  <h1 data-i18n="pageTitle1">Group 1 Specialties 2025</h1>
+  <div class="search-bar">
+    <input type="text" id="search" data-i18n-placeholder="searchPlaceholder" placeholder="Ixtisas axtar...">
+    <button id="searchBtn" data-i18n="searchBtn">Axtar</button>
+  </div>
   
-  <h1>1ci Qrup Ixtisaslar 2025</h1>
-
   <div class="filter-bar" style="margin-bottom: 15px;">
-    <input type="text" id="search" placeholder="Ixtisas axtar...">
-    <button id="searchBtn" style="padding: 8px;">Axtar</button>
     <select id="tehsilSelect">
-        <option value="">Əyani / Qiyabi</option>
-        <option value="Əyani">Əyani</option>
-        <option value="Qiyabi">Qiyabi</option>
+      <option value="" data-i18n="eduAll">Full-time / Part-time</option>
+      <option value="Əyani" data-i18n="eduEyani">Full-time</option>
+      <option value="Qiyabi" data-i18n="eduQiyabi">Part-time</option>
     </select>
 
     <select id="dilSelect">
-        <option value="">Bütün dillər</option>
-        <option value="Azərbaycan">Azərbaycan</option>
-        <option value="İngilis">İngilis</option>
+      <option value="" data-i18n="langAll">All languages</option>
+      <option value="Azərbaycan" data-i18n="langAz">Azerbaijani</option>
+      <option value="İngilis" data-i18n="langEn">English</option>
     </select>
 
     <select id="altSelect">
-        <option value="">Bütün alt qruplar</option>
-        <option value="RI">RI</option>
-        <option value="RK">RK</option>
+      <option value="" data-i18n="altAll">All subgroups</option>
+      <option value="RI">RI</option>
+      <option value="RK">RK</option>
     </select>
+
     <select id="locationSelect">
-      <option value="">Bütün şəhərlər</option>
+      <option value="" data-i18n="cityAll">All cities</option>
       <option value="Bakı">Bakı</option>
       <option value="Sumqayıt">Sumqayıt</option>
       <option value="Naxçıvan">Naxçıvan</option>
@@ -61,17 +69,36 @@
       <option value="Lənkəran">Lənkəran</option>
       <option value="Qarabağ">Qarabağ</option>
     </select>
-      
+    <div class="score-range">
+      <label for="minScore" data-i18n="minScoreLabel">Min:</label>
+      <input type="number" id="minScore" placeholder="0">
+    
+      <label for="maxScore" data-i18n="maxScoreLabel">Max:</label>
+      <input type="number" id="maxScore" placeholder="700">
+    </div> 
+    
     <p id="resultCount" style="margin-bottom: 10px; font-weight: bold;"></p>  
-
   </div>
-
   
-  <div id="table-container" class="table-view" style="height: 500px; overflow-y: auto;"></div>
+  <button id="filterToggleBtn" class="mobile-filter-toggle">
+    <img id="icon" src="filter.png" alt="Filters" width="16" class="white-icon" loading="lazy">
+    <span data-i18n="filterText">Filters</span>
+  </button>
+  
+  <!-- horizontal -->
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-8653707665334072"
+       data-ad-slot="3406974490"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+  <div id="table-container" class="table-view"></div>
   <div id="card-container" class="card-view"></div>
 
 </div>
-
 <script>
   const totalRows = 100;
   const rowHeight = 40;

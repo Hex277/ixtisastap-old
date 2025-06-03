@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="az">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Haqqımızda | IxtisasTap.com</title>
+  <title>About Us | IxtisasTap.com</title>
   <link rel="stylesheet" href="qruplar.css">
+  <link rel="icon" href="logo.png" type="image/png">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8653707665334072"
+     crossorigin="anonymous"></script>
   <style>
     body {
       display: flex;
@@ -56,8 +59,6 @@
       font-size: 14px;
     }
 
-    
-
 
   </style>
 </head>
@@ -67,14 +68,14 @@
     <img id="menu" src="menu-bar.png" alt="menu" width="20" class="menu" loading="lazy">
   </button>
   <nav id="menu-bar" class="hidden">
-    <p id="name-text">IxtisasTap.com</p>
+    <a href="index.html" id="name-text"><b>IxtisasTap.com</b></a>
     <ul>
-      <li><a href="./1ciqrup.html">1ci Qrup</a></li>
-      <li><a href="./2ciqrup.html">2ci Qrup</a></li>
-      <li><a href="./3ciqrup.html">3cü Qrup</a></li>
-      <li><a href="./4ciqrup.html">4cü Qrup</a></li>
-      <li><a href="./5ciqrup.html">5ci Qrup</a></li>
-      <li><a href="./haqqimizda.html" class="active">Haqqımızda</a></li>
+      <li><a href="./1ciqrup.html" data-i18n="group1">Group 1</a></li>
+      <li><a href="./2ciqrup.html" data-i18n="group2">Group 2</a></li>
+      <li><a href="./3ciqrup.html" data-i18n="group3">Group 3</a></li>
+      <li><a href="./4ciqrup.html" data-i18n="group4">Group 4</a></li>
+      <li><a href="./5ciqrup.html" data-i18n="group5">Group 5 (coming soon)</a></li>
+      <li><a href="./haqqimizda.html" data-i18n="about">About Us & Contact</a></li>
     </ul>
   </nav>
 
@@ -82,56 +83,47 @@
     <button id="toggle-dark-mode">
       <img id="icon" src="sun.png" alt="rejim" width="20" class="white-icon" loading="lazy">
     </button>
+    <select id="language-selector">
+      <option value="en" selected>EN</option>
+      <option value="az">AZ</option>
+      <option value="tr">TR</option>
+    </select>  
 
     <div class="text-bar">
-      <h1>Haqqımızda</h1>
+      <h1 data-i18n="aboutUs">About Us</h1>
+        <!-- horizontal -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-8653707665334072"
+           data-ad-slot="3406974490"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
 
       <section class="info-section">
-        <p>Sayt Azərbaycanda ixtisas seçimi prosesini köklü şəkildə dəyişdirmək üçün yaradılıb. Təhsil sahəsində mövcud olan məlumatların çoxluğu və dağınıqlığı istifadəçilərin doğru ixtisas tapmasına mane olur. Məqsədimiz, tələbələrə və ixtisas axtaranlara ən dolğun, ən aktual və ən əlçatan məlumatları təqdim etməklə, seçim prosesini asanlaşdırmaqdır.</p>
-
-        <p>Saytımızda müxtəlif ixtisaslar və onlara aid geniş məlumat bazası bir araya gətirilib. Biz, ən yeni təhsil trendlərini izləyir, istifadəçilərimizin ehtiyaclarını nəzərə alaraq daima məlumat bazamızı yeniləyirik. İxtisaslar haqqında təqdim etdiyimiz məlumatlar, təhsil müəssisələrinin proqramları, ixtisasın gələcək perspektivləri və iş imkanları kimi vacib aspektləri əhatə edir.</p>
-
-        <p>Biz, istifadəçi təcrübəsini ön planda saxlayırıq. Saytımızda intuitiv axtarış sistemi, asan anlaşılan interfeys və geniş filtrasiya imkanları vasitəsilə hər kəs öz ehtiyacına uyğun ixtisası rahatlıqla tapa bilər. Məqsədimiz, Azərbaycanda təhsil sahəsində qabaqcıl və etibarlı platforma olmaqdır.</p>
-
-        <p>İstifadəçilərimizin rəyləri bizim üçün önəmlidir. Hər zaman sizin fikirlərinizi dinləyir, saytımızı daha da təkmilləşdirmək üçün çalışırıq. İxtisas seçiminizdə sizə yol göstərmək bizim əsas məqsədimizdir.</p>
+        <p data-i18n="aboutParagraph1">This website was created to fundamentally transform the specialty selection process in Azerbaijan. The abundance and fragmentation of information in the education sector hinder users from finding the right specialty. Our goal is to simplify the selection process by providing the most comprehensive, up-to-date, and accessible information to students and specialty seekers.</p>
+        <p data-i18n="aboutParagraph2">We have compiled a wide range of specialties and related information into one platform. We follow the latest educational trends and constantly update our database based on the needs of our users. The information we provide about specialties covers important aspects such as academic programs, future prospects, and career opportunities.</p>
+        <p data-i18n="aboutParagraph3">User experience is our top priority. With an intuitive search system, easy-to-understand interface, and extensive filtering options, everyone can easily find the specialty that suits their needs. Our goal is to be a leading and reliable platform in the field of education in Azerbaijan.</p>
+        <p data-i18n="aboutParagraph4">We value feedback from our users. We always listen to your opinions and strive to improve our website further. Guiding you in your specialty selection journey is our main mission.</p>
       </section>
 
-      <h1>Əlaqə</h1>
+      <h1 data-i18n="contactTitle"></h1>
       <section class="contact-section">
-        <p><strong>Email:</strong> ixtisastap@gmail.com</p>
-        <p><strong>Telefon:</strong> +994 xx xxx xx xx</p>
-        <p><strong>Ünvan:</strong> Bakı, Azərbaycan</p>
+        <p><strong data-i18n="emailLabel"></strong>: ixtisastap@gmail.com</p>
+        <p><strong data-i18n="phoneLabel"></strong>: +994 55 919 46 42</p>
+        <p><strong data-i18n="locationLabel"></strong>: <span data-i18n="locationValue"></span></p>
       </section>
 
       <footer class="site-footer">
-        <p>&copy; 2025 ixtisastap.com. Bütün hüquqlar qorunur.</p>
+        <p>&copy; 2025 ixtisastap.com. <span data-i18n="footerText"></span></p>
       </footer>
+
     </div>
   </div>
 
 <script src="script.js"></script>
-<script>
-  const toggleDarkMode = document.getElementById("toggle-dark-mode");
-  const icon = document.getElementById("icon");
 
-  // Əvvəlki vəziyyəti yadda saxla
-  const savedTheme = localStorage.getItem("theme");
-  if (savedTheme === "dark") {
-    document.body.classList.add("dark-mode");
-    icon.src = "moon.png"; // Dark mode üçün ikon
-  }
-
-  toggleDarkMode.addEventListener("click", () => {
-    document.body.classList.toggle("dark-mode");
-
-    if (document.body.classList.contains("dark-mode")) {
-      icon.src = "sun.png";
-      localStorage.setItem("theme", "dark");
-    } else {
-      icon.src = "moon.png";
-      localStorage.setItem("theme", "light");
-    }
-  });
-</script>
 </body>
 </html>
