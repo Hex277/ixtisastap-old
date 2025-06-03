@@ -61,7 +61,7 @@ navLinks.forEach(link => {
 });
 document.addEventListener('DOMContentLoaded', () => {
   const menuBar = document.getElementById("menu-bar");
-  if (!menuBar) return; // əgər element yoxdursa çıx
+  if (!menuBar) return;
 
   let touchStartX = 0;
   let touchEndX = 0;
@@ -69,19 +69,29 @@ document.addEventListener('DOMContentLoaded', () => {
   function handleGesture() {
     const swipeDistance = touchStartX - touchEndX;
     const minSwipeDistance = 50;
-  
+
     // sola sürüşdürmə (bağla)
     if (swipeDistance > minSwipeDistance && !menuBar.classList.contains('hidden')) {
       menuBar.classList.add("hidden");
     }
-  
+
     // sağa sürüşdürmə (aç)
     if (swipeDistance < -minSwipeDistance && menuBar.classList.contains('hidden')) {
       menuBar.classList.remove("hidden");
     }
   }
-  
+
+  // Həmişə swipe dinləyicisi əlavə olunur (mobil və ya masaüstü fərq etmir)
+  document.addEventListener("touchstart", (e) => {
+    touchStartX = e.changedTouches[0].screenX;
+  });
+
+  document.addEventListener("touchend", (e) => {
+    touchEndX = e.changedTouches[0].screenX;
+    handleGesture();
+  });
 });
+
 
 function setupEventListeners() {
   const searchInput = document.getElementById("search");
