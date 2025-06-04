@@ -255,10 +255,25 @@ function filterData(data, {searchValue, tehsilValue, dilValue, altValue, locatio
         if (dilValue && ixt.dil !== dilValue) return false;
         if (altValue && ixt.alt_qrup !== altValue) return false;
 
-        if (ixt.bal_pulsuz !== null && ixt.bal_pulsuz !== undefined) {
-          const bal = parseInt(ixt.bal_pulsuz);
-          if (bal < minScore || bal > maxScore) return false;
+        // Bal filtirləri həm bal_pulsuz, həm də bal_pullu üçün keçərli olmalıdır
+        const balPulsuz = ixt.bal_pulsuz !== null && ixt.bal_pulsuz !== undefined ? parseInt(ixt.bal_pulsuz) : null;
+        const balPullu = ixt.bal_pullu !== null && ixt.bal_pullu !== undefined ? parseInt(ixt.bal_pullu) : null;
+
+        let balUyğun = true;
+
+        if (minScore !== null || maxScore !== null) {
+          const pulsuzUyğun = balPulsuz !== null &&
+            (minScore === null || balPulsuz >= minScore) &&
+            (maxScore === null || balPulsuz <= maxScore);
+
+          const pulluUyğun = balPullu !== null &&
+            (minScore === null || balPullu >= minScore) &&
+            (maxScore === null || balPullu <= maxScore);
+
+          balUyğun = pulsuzUyğun || pulluUyğun;
         }
+
+        if (!balUyğun) return false;
 
         if (searchValue && !ixt.ad.toLowerCase().includes(searchValue)) return false;
 
@@ -281,6 +296,7 @@ function filterData(data, {searchValue, tehsilValue, dilValue, altValue, locatio
 
   return result;
 }
+
 
 
 // --- "Dark mode" ---
