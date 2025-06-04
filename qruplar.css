@@ -73,13 +73,27 @@ tr.even-row {
 .filter-bar {
   display: flex;
   flex-wrap: wrap;
-  gap: 13px;
-  margin-bottom: 25px;
+  gap: 8px;
+  margin-top: 10px;
   justify-content: center;
   align-items: center;
-  position: relative;
-  background-color: transparent;
+  position: relative; 
+  background-color: #f0f0f0;
   z-index: 998;
+}
+.search-bar {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center;     /* Vertical centering */
+  gap: 10px; 
+}
+
+#search {
+  max-width: 700px;
+}
+
+body.dark-mode .filter-bar {
+  background-color: #121212;
 }
 
 input[type="text"],
@@ -104,15 +118,40 @@ select:focus {
 }
 
 select {
-  width: 200px;
+  width: 150px;
   cursor: pointer;
 }
 
 select:hover {
   border-color: #1e62d0;
 }
+.score-range {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.score-range input {
+  padding: 10px;
+  font-size: 15px;
+  border: 2px solid #4a90e2;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  width: auto;
+  max-width: 55px;
+}
+.score-range input:focus {
+  border-color: #1e62d0;
+  outline: none;
+}
+body.dark-mode .score-range input {
+  border: 2px solid #555;
+  background-color: #222;
+  color: #eee;
+}
 
 #resultCount {
+  display: none;
   position: relative;
   left: 10px;
   font-weight: bold;
@@ -383,18 +422,18 @@ body.dark-mode .menu-button {
     position: fixed;
     margin-left: 200px;
     padding: 10px;
+    padding-right: 0px;
     top: -30px;
   }
 
   #resultCount {
     position: absolute;
-    margin-top: 90px;
+    margin-top: 78px;
   }
 
   #table-container {
-    position: absolute;
+    position: relative;
     display: block;
-    top: 220px;
     padding-right: 10px;
     height: 500px;
     overflow-y: auto;
@@ -416,6 +455,11 @@ body.dark-mode .menu-button {
     width: 180px;
     display: block !important;
   }
+  .filter-bar {
+    padding: 0px 30px;
+    padding-bottom: 15px;
+  }
+
 }
 
 /* MOBILE THEME */
@@ -436,14 +480,14 @@ body.dark-mode .menu-button {
     margin-top: -40px;
   }
 
-  .filter-bar {
+  .filter-bar, .search-bar {
     flex-direction: column;
     align-items: stretch;
   }
 
-  .filter-bar > * {
+  .filter-bar > *, .search-bar > * {
     width: 100%;
-    max-width: 350px;
+    max-width: 700px;
   }
   .card {
     background: #f9f9f9;

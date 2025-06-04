@@ -71,18 +71,24 @@ function setupEventListeners() {
   const altSelect = document.getElementById("altSelect");
   const locationSelect = document.getElementById("locationSelect");
   const searchBtn = document.getElementById("searchBtn");
+  const minScoreInput = document.getElementById("minScore");
+  const maxScoreInput = document.getElementById("maxScore");
 
-  // Listener-ləri sil
+  // Əvvəlki listenerləri sil
   searchInput.removeEventListener("input", applyFilters);
   tehsilSelect.removeEventListener("change", applyFilters);
   dilSelect.removeEventListener("change", applyFilters);
   altSelect.removeEventListener("change", applyFilters);
   locationSelect.removeEventListener("change", applyFilters);
+  minScoreInput.removeEventListener("input", applyFilters);
+  maxScoreInput.removeEventListener("input", applyFilters);
   if (searchBtn) searchBtn.removeEventListener("click", applyFilters);
 
-  // Listener-ləri əlavə et
+  // Yenidən listener-ləri qur
   if (window.innerWidth > 768) {
     searchInput.addEventListener("input", applyFilters);
+    minScoreInput.addEventListener("input", applyFilters);
+    maxScoreInput.addEventListener("input", applyFilters);
   } else if (searchBtn) {
     searchBtn.addEventListener("click", applyFilters);
   }
@@ -198,11 +204,27 @@ function applyFilters() {
     });
   });
 
-  document.getElementById('resultCount').textContent = `${totalResults} found`;
+  const resultCountEl = document.getElementById('resultCount');
+  const resultNumberEl = document.getElementById('resultNumber');
+
+  const isFilterApplied = JSON.stringify(filters) !== JSON.stringify({
+    search: "",
+    uni: "",
+    qrup: "",
+    type: ""
+  });
+
+  if (isFilterApplied) {
+    resultNumberEl.textContent = totalResults;
+    resultCountEl.style.display = "inline";
+  } else {
+    resultCountEl.style.display = "none";
+  }
 
   const lang = localStorage.getItem("selectedLanguage") || "en";
   renderData(filtered, lang);
   setupEventListeners();
+  changeLanguage(lang);
 }
 
 // --- Cari filtr dəyərlərinin alınması ---
@@ -212,17 +234,19 @@ function getCurrentFilters() {
     tehsilValue: document.getElementById("tehsilSelect").value,
     dilValue: document.getElementById("dilSelect").value,
     altValue: document.getElementById("altSelect").value,
-    locationValue: document.getElementById("locationSelect").value
+    locationValue: document.getElementById("locationSelect").value,
+    minScore: parseInt(document.getElementById("minScore").value) || 0,
+    maxScore: parseInt(document.getElementById("maxScore").value) || 700
   };
 }
 
+
 // --- Data filtr funksiyası ---
-function filterData(data, {searchValue, tehsilValue, dilValue, altValue, locationValue}) {
+function filterData(data, {searchValue, tehsilValue, dilValue, altValue, locationValue, minScore, maxScore}) {
   if (!data) return [];
 
   const result = data.map(qrup => {
     const filteredUniversities = qrup.universitetler.map(uni => {
-      // Burada universitetin "yer" sahəsi yoxlanır
       const uniLocationMatches = locationValue === '' || uni.yer.toLowerCase().includes(locationValue.toLowerCase());
       if (!uniLocationMatches) return null;
 
@@ -231,9 +255,12 @@ function filterData(data, {searchValue, tehsilValue, dilValue, altValue, locatio
         if (dilValue && ixt.dil !== dilValue) return false;
         if (altValue && ixt.alt_qrup !== altValue) return false;
 
-        if (searchValue) {
-          return ixt.ad.toLowerCase().includes(searchValue);
+        if (ixt.bal_pulsuz !== null && ixt.bal_pulsuz !== undefined) {
+          const bal = parseInt(ixt.bal_pulsuz);
+          if (bal < minScore || bal > maxScore) return false;
         }
+
+        if (searchValue && !ixt.ad.toLowerCase().includes(searchValue)) return false;
 
         return true;
       });
@@ -254,6 +281,7 @@ function filterData(data, {searchValue, tehsilValue, dilValue, altValue, locatio
 
   return result;
 }
+
 
 // --- "Dark mode" ---
 const toggleBtn = document.getElementById('toggle-dark-mode');
@@ -312,6 +340,7 @@ const translations = {
     pageTitle5: "Group 5 Specialties 2025",
     searchBtn: "Search",
     searchPlaceholder: "Search for specialty...",
+    found: "found.",
     eduAll: "Full-time / Part-time",
     eduEyani: "Full-time",
     eduQiyabi: "Part-time",
@@ -368,6 +397,7 @@ const translations = {
     pageTitle5: "5ci Qrup Ixtisaslar 2025",
     searchBtn: "Axtar",
     searchPlaceholder: "Ixtisas axtar...",
+    found: "nəticə tapıldı.",
     eduAll: "Əyani / Qiyabi",
     eduEyani: "Əyani",
     eduQiyabi: "Qiyabi",
@@ -386,7 +416,6 @@ const translations = {
     langPo: "Polyak dili",
     langIs: "İspan dili",
     langEr: "Erməni dili",
-
     altAll: "Bütün alt qruplar",
     cityAll: "Bütün şəhərlər",
     ixtisas: "Ixtisas",
@@ -425,6 +454,7 @@ const translations = {
     pageTitle5: "5. Grup Bölümleri 2025",
     searchBtn: "Ara",
     searchPlaceholder: "Bölüm ara...",
+    found: "sonuç bulundu.",
     eduAll: "Örgün / Uzaktan",
     eduEyani: "Örgün",
     eduQiyabi: "Uzaktan",
