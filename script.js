@@ -1,44 +1,8 @@
-// Extract group number from the URL (e.g., '1ciqrup.html' -> '1')
+// --- Qlobal dəyişənlər ---
 const groupMatch = window.location.pathname.match(/(\d)ciqrup\.html$/);
-const groupNumber = groupMatch ? groupMatch[1] : '1'; // Default to '1' if not found
+const groupNumber = groupMatch ? groupMatch[1] : '1'; 
 const jsonFile = `qrup${groupNumber}.json`;
-
 let globalData = [];
-
-fetch(jsonFile)
-  .then(response => {
-    if (!response.ok) {
-      throw new Error(`Failed to fetch ${jsonFile}: ${response.statusText}`);
-    }
-    return response.json();
-  })
-  .then(data => {
-    globalData = data;
-    const lang = localStorage.getItem("selectedLanguage") || "en";
-    renderData(data, lang);
-    setupEventListeners();
-
-    // Buraya əlavə et:
-    window.addEventListener('resize', () => {
-      const filters = getCurrentFilters();
-      const filtered = filterData(globalData, filters);
-      const lang = localStorage.getItem("selectedLanguage") || "en";
-      renderData(filtered, lang);
-      setupEventListeners();
-    });
-    
-    window.addEventListener('orientationchange', () => {
-      const filters = getCurrentFilters();
-      const filtered = filterData(globalData, filters);
-      const lang = localStorage.getItem("selectedLanguage") || "en";
-      renderData(filtered,lang);
-      setupEventListeners();
-    });
-    
-  })
-  .catch(error => {
-    console.error('Error loading data:', error);
-  });
 
 const groupNames = {
   '1': '1-ci Qrup',
@@ -48,91 +12,92 @@ const groupNames = {
   '5': '5-ci Qrup'
 };
 
-const groupTitleElement = document.getElementById('group-title');
-if (groupTitleElement) {
-  groupTitleElement.textContent = groupNames[groupNumber] || 'Qrup';
+// --- Data yükləmə funksiyası ---
+function loadData() {
+  fetch(jsonFile)
+    .then(response => {
+      if (!response.ok) throw new Error(`Failed to fetch ${jsonFile}: ${response.statusText}`);
+      return response.json();
+    })
+    .then(data => {
+      globalData = data;
+      initPage();
+    })
+    .catch(error => {
+      console.error('Error loading data:', error);
+    });
 }
 
-const navLinks = document.querySelectorAll('#menu-bar ul li a');
-navLinks.forEach(link => {
-  if (link.getAttribute('href') === `${groupNumber}ciqrup.html`) {
-    link.classList.add('active');
-  }
-});
-document.addEventListener('DOMContentLoaded', () => {
-  const menuBar = document.getElementById("menu-bar");
-  if (!menuBar) return;
+// --- Səhifənin ilkin tənzimləmələri ---
+function initPage() {
+  const lang = localStorage.getItem("selectedLanguage") || "en";
 
-  let touchStartX = 0;
-  let touchEndX = 0;
-
-  function handleGesture() {
-    const swipeDistance = touchStartX - touchEndX;
-    const minSwipeDistance = 50;
-
-    // sola sürüşdürmə (bağla)
-    if (swipeDistance > minSwipeDistance && !menuBar.classList.contains('hidden')) {
-      menuBar.classList.add("hidden");
-    }
-
-    // sağa sürüşdürmə (aç)
-    if (swipeDistance < -minSwipeDistance && menuBar.classList.contains('hidden')) {
-      menuBar.classList.remove("hidden");
-    }
+  // Qrup başlığını təyin et
+  const groupTitleElement = document.getElementById('group-title');
+  if (groupTitleElement) {
+    groupTitleElement.textContent = groupNames[groupNumber] || 'Qrup';
   }
 
-  // Həmişə swipe dinləyicisi əlavə olunur (mobil və ya masaüstü fərq etmir)
-  document.addEventListener("touchstart", (e) => {
-    touchStartX = e.changedTouches[0].screenX;
+  // Naviqasiya linklərini aktivləşdir
+  const navLinks = document.querySelectorAll('#menu-bar ul li a');
+  navLinks.forEach(link => {
+    link.classList.remove('active');
+    if (link.getAttribute('href') === `${groupNumber}ciqrup.html`) {
+      link.classList.add('active');
+    }
   });
 
-  document.addEventListener("touchend", (e) => {
-    touchEndX = e.changedTouches[0].screenX;
-    handleGesture();
-  });
-});
+  // İlk render və event listener-lərin qurulması
+  renderData(globalData, lang);
+  setupEventListeners();
 
+  // Resize və orientationchange üçün handler
+  function handleResizeOrientation() {
+    const filters = getCurrentFilters();
+    const filtered = filterData(globalData, filters);
+    renderData(filtered, lang);
+    setupEventListeners();
+  }
 
+  window.addEventListener('resize', handleResizeOrientation);
+  window.addEventListener('orientationchange', handleResizeOrientation);
+}
+
+// --- Event listener-lərin qurulması ---
 function setupEventListeners() {
   const searchInput = document.getElementById("search");
   const tehsilSelect = document.getElementById("tehsilSelect");
   const dilSelect = document.getElementById("dilSelect");
   const altSelect = document.getElementById("altSelect");
   const locationSelect = document.getElementById("locationSelect");
+  const searchBtn = document.getElementById("searchBtn");
 
+  // Listener-ləri sil
   searchInput.removeEventListener("input", applyFilters);
   tehsilSelect.removeEventListener("change", applyFilters);
   dilSelect.removeEventListener("change", applyFilters);
   altSelect.removeEventListener("change", applyFilters);
   locationSelect.removeEventListener("change", applyFilters);
+  if (searchBtn) searchBtn.removeEventListener("click", applyFilters);
 
+  // Listener-ləri əlavə et
   if (window.innerWidth > 768) {
-    searchInput.addEventListener("input", applyFilters); // Yalnız masaüstündə input dəyişdikcə işləsin
-  } else {
-    const searchBtn = document.getElementById("searchBtn");
-    searchBtn.addEventListener("click", applyFilters); // Mobil üçün sadəcə düymə ilə işləsin
+    searchInput.addEventListener("input", applyFilters);
+  } else if (searchBtn) {
+    searchBtn.addEventListener("click", applyFilters);
   }
+
+  tehsilSelect.addEventListener("change", applyFilters);
+  dilSelect.addEventListener("change", applyFilters);
+  altSelect.addEventListener("change", applyFilters);
+  locationSelect.addEventListener("change", applyFilters);
 }
 
-const menuToggle = document.getElementById('menu-toggle');
-const menuContent = document.getElementById('menu-bar');
- 
-menuToggle.addEventListener('click', () => {
-  menuContent.classList.toggle('hidden');
-});
-
-document.addEventListener('click', function(event) {
-  const isClickInside = menuToggle.contains(event.target) || menuContent.contains(event.target);
-  if (!isClickInside) {
-    menuContent.classList.add('hidden');
-  }
-});
-
-function renderData(data) {
+// --- Data render funksiyası ---
+function renderData(data, lang) {
   const tableContainer = document.getElementById('table-container');
   const cardContainer = document.getElementById('card-container');
-  const lang = localStorage.getItem("selectedLanguage") || "en"; 
-  const t = translations[lang]; 
+  const t = translations[lang] || {};
   const isMobile = window.innerWidth <= 768;
 
   tableContainer.innerHTML = "";
@@ -140,7 +105,6 @@ function renderData(data) {
 
   if (isMobile) {
     let htmlCard = '';
-
     data.forEach(qrup => {
       qrup.universitetler.forEach(uni => {
         htmlCard += `<div class="uni-basliq">${uni.universitet}</div>`;
@@ -156,8 +120,7 @@ function renderData(data) {
                 <div class="field"><strong>${t["altQrup"] || "Alt qrup"}:</strong> ${ixt.alt_qrup}</div>
               </div>
               <a href="#" class="toggle-more" onclick="toggleMore(this); return false;">${t["dahaCox"] || "Daha çox"}</a>
-            </div>
-          `;
+            </div>`;
         });
       });
     });
@@ -184,8 +147,7 @@ function renderData(data) {
                 <th>${t["balOdenisli"] || "Bal (Ödənişli)"}</th>
               </tr>
             </thead>
-            <tbody>
-        `;
+            <tbody>`;
 
         uni.ixtisaslar.forEach((ixt, index) => {
           const zebraClass = index % 2 === 0 ? 'even-row' : '';
@@ -197,8 +159,7 @@ function renderData(data) {
               <td>${ixt.alt_qrup}</td>
               <td>${ixt.bal_pulsuz ?? "—"}</td>
               <td>${ixt.bal_pullu ?? "—"}</td>
-            </tr>
-          `;
+            </tr>`;
         });
 
         htmlTable += `</tbody></table>`;
@@ -209,132 +170,92 @@ function renderData(data) {
     cardContainer.style.display = "none";
     tableContainer.style.display = "block";
   }
-  setupEventListeners();
 }
-document.addEventListener('DOMContentLoaded', () => {
-  const filterBar = document.querySelector('.filter-bar');
-  const filterToggleBtn = document.getElementById('filterToggleBtn');
-  const filterText = filterToggleBtn.querySelector('span');
-  const filterIcon = filterToggleBtn.querySelector('img');
-
-  // Əvvəlcə filterlər gizlədilir (mobil üçün)
-  if (window.innerWidth <= 768) {
-    filterBar.style.display = 'none';
-  }
-
-  filterToggleBtn.addEventListener('click', () => {
-    const isVisible = filterBar.style.display === 'block';
-
-    if (isVisible) {
-      filterBar.style.display = 'none';
-      filterText.textContent = 'Filter';
-      filterIcon.style.display = 'inline';
-    } else {
-      filterBar.style.display = 'block';
-      filterText.textContent = 'Close';
-      filterIcon.style.display = 'none';
-    }
-  });
-
-
+// --- Menyu bar ---
+const menuToggle = document.getElementById('menu-toggle');
+const menuContent = document.getElementById('menu-bar');
+ 
+menuToggle.addEventListener('click', () => {
+  menuContent.classList.toggle('hidden');
 });
 
-function applyFilters() {
-  const query = document.getElementById("search").value.toLowerCase();
-  const selectedTehsil = document.getElementById("tehsilSelect").value;
-  const selectedDil = document.getElementById("dilSelect").value;
-  const selectedAlt = document.getElementById("altSelect").value;
-  const selectedLocation = document.getElementById("locationSelect").value;
-  const minScoreInput = document.getElementById("minScore");
-  const maxScoreInput = document.getElementById("maxScore");
-
-  const minScore = minScoreInput.value ? parseFloat(minScoreInput.value) : null;
-  const maxScore = maxScoreInput.value ? parseFloat(maxScoreInput.value) : null;
-  
-  let totalResults = 0;
-
-  const filtered = globalData.map(qrup => {
-    const filteredUniversitetler = qrup.universitetler.map(uni => {
-      const matchedIxtisaslar = uni.ixtisaslar.filter(ixt => {
-        const nameMatch = ixt.ad.toLowerCase().includes(query);
-        const tehsilMatch = !selectedTehsil || ixt.tehsil_formasi === selectedTehsil;
-        const dilMatch = !selectedDil || ixt.dil === selectedDil;
-        const altMatch = !selectedAlt || ixt.alt_qrup === selectedAlt;
-        const locationMatch = !selectedLocation || uni.yer === selectedLocation;
-
-        const score = ixt.bal_pulsuz;
-        const scorePullu = ixt.bal_pullu;
-        const scoreMatch = (
-          (minScore === null || (score !== undefined && score >= minScore)) &&
-          (maxScore === null || (score !== undefined && score <= maxScore)) &&
-          (maxScore === null || (score !== undefined && scorePullu <= maxScore))
-        );
-
-        return nameMatch && tehsilMatch && dilMatch && altMatch && locationMatch && scoreMatch;
-      });
-
-      totalResults += matchedIxtisaslar.length;
-      return matchedIxtisaslar.length > 0 ? { ...uni, ixtisaslar: matchedIxtisaslar } : null;
-    }).filter(Boolean);
-
-    return filteredUniversitetler.length > 0 ? { ...qrup, universitetler: filteredUniversitetler } : null;
-  }).filter(Boolean);
-
-  const resultCountElement = document.getElementById("resultCount");
-  if (query || selectedTehsil || selectedDil || selectedAlt || selectedLocation || minScore !== null || maxScore !== null) {
-    if (totalResults > 0) {
-      resultCountElement.innerText = `${totalResults} nəticə tapıldı.`;
-      resultCountElement.style.display = "block";
-    } else {
-      resultCountElement.innerText = "Nəticə tapılmadı.";
-      resultCountElement.style.display = "block";
-    }
-  } else {
-    resultCountElement.style.display = "none";
+document.addEventListener('click', function(event) {
+  const isClickInside = menuToggle.contains(event.target) || menuContent.contains(event.target);
+  if (!isClickInside) {
+    menuContent.classList.add('hidden');
   }
+});
+
+// --- Filter tətbiq funksiyası ---
+function applyFilters() {
+  const filters = getCurrentFilters();
+  const filtered = filterData(globalData, filters);
+
+  let totalResults = 0;
+  filtered.forEach(qrup => {
+    qrup.universitetler.forEach(uni => {
+      totalResults += uni.ixtisaslar.length;
+    });
+  });
+
+  document.getElementById('resultCount').textContent = `${totalResults} found`;
 
   const lang = localStorage.getItem("selectedLanguage") || "en";
   renderData(filtered, lang);
+  setupEventListeners();
 }
 
-// ✅ Desktop və mobil üçün input hadisələrini idarə edən funksiya
-function setupEventListeners() {
-  const searchInput = document.getElementById("search");
-  const tehsilSelect = document.getElementById("tehsilSelect");
-  const dilSelect = document.getElementById("dilSelect");
-  const altSelect = document.getElementById("altSelect");
-  const locationSelect = document.getElementById("locationSelect");
-
-  const minScoreInput = document.getElementById("minScore");
-  const maxScoreInput = document.getElementById("maxScore");
-  
-  if (!searchInput || !tehsilSelect || !dilSelect || !altSelect || !locationSelect) return;
-  // Əvvəlki hadisələri təmizlə 
-  searchInput.removeEventListener("input", applyFilters);
-  tehsilSelect.removeEventListener("change", applyFilters);
-  dilSelect.removeEventListener("change", applyFilters);
-  altSelect.removeEventListener("change", applyFilters);
-  locationSelect.removeEventListener("change", applyFilters);
-  minScoreInput?.removeEventListener("input", applyFilters);
-  maxScoreInput?.removeEventListener("input", applyFilters);
-
-  if (window.innerWidth > 768) {
-    searchInput.addEventListener("input", applyFilters);
-  } else {
-    const searchBtn = document.getElementById("searchBtn");
-    if (searchBtn) {
-      searchBtn.removeEventListener("click", applyFilters);
-      searchBtn.addEventListener("click", applyFilters);
-    }
-  }
-  // Hər iki rejimdə aşağıdakılar işə düşür
-  tehsilSelect.addEventListener("change", applyFilters);
-  dilSelect.addEventListener("change", applyFilters);
-  altSelect.addEventListener("change", applyFilters);
-  locationSelect.addEventListener("change", applyFilters);
+// --- Cari filtr dəyərlərinin alınması ---
+function getCurrentFilters() {
+  return {
+    searchValue: document.getElementById("search").value.trim().toLowerCase(),
+    tehsilValue: document.getElementById("tehsilSelect").value,
+    dilValue: document.getElementById("dilSelect").value,
+    altValue: document.getElementById("altSelect").value,
+    locationValue: document.getElementById("locationSelect").value
+  };
 }
 
+// --- Data filtr funksiyası ---
+function filterData(data, {searchValue, tehsilValue, dilValue, altValue, locationValue}) {
+  if (!data) return [];
 
+  const result = data.map(qrup => {
+    const filteredUniversities = qrup.universitetler.map(uni => {
+      // Burada universitetin "yer" sahəsi yoxlanır
+      const uniLocationMatches = locationValue === '' || uni.yer.toLowerCase().includes(locationValue.toLowerCase());
+      if (!uniLocationMatches) return null;
+
+      const filteredIxtisaslar = uni.ixtisaslar.filter(ixt => {
+        if (tehsilValue && ixt.tehsil_formasi !== tehsilValue) return false;
+        if (dilValue && ixt.dil !== dilValue) return false;
+        if (altValue && ixt.alt_qrup !== altValue) return false;
+
+        if (searchValue) {
+          return ixt.ad.toLowerCase().includes(searchValue);
+        }
+
+        return true;
+      });
+
+      if (filteredIxtisaslar.length === 0) return null;
+
+      return {
+        ...uni,
+        ixtisaslar: filteredIxtisaslar
+      };
+    }).filter(Boolean);
+
+    return {
+      ...qrup,
+      universitetler: filteredUniversities
+    };
+  }).filter(q => q.universitetler.length > 0);
+
+  return result;
+}
+
+// --- "Dark mode" ---
 const toggleBtn = document.getElementById('toggle-dark-mode');
 const toggleIcon = document.getElementById('icon');
 
@@ -358,50 +279,23 @@ toggleBtn.addEventListener('click', () => {
   }
 });
 
-function toggleMore(link) {
-  const card = link.closest('.card');
-  const extraInfo = card.querySelector('.extra-info');
-  const isVisible = extraInfo.style.display === "block";
-
-  const lang = localStorage.getItem("preferredLang") || "en";
-  const t = translations[lang];
-
-  extraInfo.style.display = isVisible ? "none" : "block";
-  link.innerText = isVisible ? t["dahaCox"] || "Daha çox" : t["dahaAz"] || "Daha az";
+// --- "Daha çox" linkinə kliklə gizlədilən bölməni açıb-bağlama funksiyası ---
+function toggleMore(el) {
+  const extraInfo = el.previousElementSibling;
+  if (extraInfo.style.display === "none") {
+    extraInfo.style.display = "block";
+    el.textContent = (localStorage.getItem("selectedLanguage") === "az") ? "Daha az" : "Less";
+  } else {
+    extraInfo.style.display = "none";
+    el.textContent = (localStorage.getItem("selectedLanguage") === "az") ? "Daha çox" : "More";
+  }
 }
 
+// --- Səhifə yüklənəndə ---
+document.addEventListener("DOMContentLoaded", () => {
+  loadData();
+});
 
-function getCurrentFilters() {
-  const query = document.getElementById("search").value.toLowerCase();
-  const selectedTehsil = document.getElementById("tehsilSelect").value;
-  const selectedDil = document.getElementById("dilSelect").value;
-  const selectedAlt = document.getElementById("altSelect").value;
-  const selectedLocation = document.getElementById("locationSelect").value;
-
-  return { query, selectedTehsil, selectedDil, selectedAlt, selectedLocation };
-}
-
-function filterData(data, filters) {
-  const { query, selectedTehsil, selectedDil, selectedAlt, selectedLocation } = filters;
-
-  return data.map(qrup => {
-    const filteredUniversitetler = qrup.universitetler.map(uni => {
-      const matchedIxtisaslar = uni.ixtisaslar.filter(ixt => {
-        const nameMatch = ixt.ad.toLowerCase().includes(query);
-        const tehsilMatch = !selectedTehsil || ixt.tehsil_formasi === selectedTehsil;
-        const dilMatch = !selectedDil || ixt.dil === selectedDil;
-        const altMatch = !selectedAlt || ixt.alt_qrup === selectedAlt;
-        const locationMatch = !selectedLocation || uni.yer === selectedLocation;
-
-        return nameMatch && tehsilMatch && dilMatch && altMatch && locationMatch;
-      });
-
-      return matchedIxtisaslar.length > 0 ? { ...uni, ixtisaslar: matchedIxtisaslar } : null;
-    }).filter(Boolean);
-
-    return filteredUniversitetler.length > 0 ? { ...qrup, universitetler: filteredUniversitetler } : null;
-  }).filter(Boolean);
-}
 const translations = {
   en: {
     siteName: "IxtisasTap.com",
@@ -418,7 +312,6 @@ const translations = {
     pageTitle5: "Group 5 Specialties 2025",
     searchBtn: "Search",
     searchPlaceholder: "Search for specialty...",
-    filterText: "Filters",
     eduAll: "Full-time / Part-time",
     eduEyani: "Full-time",
     eduQiyabi: "Part-time",
@@ -475,7 +368,6 @@ const translations = {
     pageTitle5: "5ci Qrup Ixtisaslar 2025",
     searchBtn: "Axtar",
     searchPlaceholder: "Ixtisas axtar...",
-    filterText: "Filterlər",
     eduAll: "Əyani / Qiyabi",
     eduEyani: "Əyani",
     eduQiyabi: "Qiyabi",
@@ -533,7 +425,6 @@ const translations = {
     pageTitle5: "5. Grup Bölümleri 2025",
     searchBtn: "Ara",
     searchPlaceholder: "Bölüm ara...",
-    filterText: "Filtre",
     eduAll: "Örgün / Uzaktan",
     eduEyani: "Örgün",
     eduQiyabi: "Uzaktan",
@@ -587,7 +478,6 @@ function changeLanguage(lang) {
     }
   });
 
-  // Placeholder üçün ayrıca dəyişiklik:
   const placeholderEl = document.querySelector("[data-i18n-placeholder]");
   if (placeholderEl) {
     const key = placeholderEl.getAttribute("data-i18n-placeholder");
@@ -600,7 +490,6 @@ function changeLanguage(lang) {
 document.getElementById("language-selector").addEventListener("change", function () {
   const selectedLang = this.value;
   localStorage.setItem("selectedLanguage", selectedLang);
-  // Səhifəni reload edirik ki, bütün content yenidən yüklənsin və başlıqlar da dəyişsin
   location.reload();
 });
 
@@ -608,6 +497,80 @@ window.addEventListener("DOMContentLoaded", () => {
   const savedLang = localStorage.getItem("selectedLanguage") || "en";
   document.getElementById("language-selector").value = savedLang;
   changeLanguage(savedLang);
-  renderData(filteredData || originalData); // renderData funksiyası burada işləsin
+  renderData(filteredData || originalData);
 });
+ 
 
+const tableContainer = document.getElementById('table-container');
+  const cardContainer = document.getElementById('card-container');
+
+  const isMobile = () => window.innerWidth <= 768;
+
+  function setupTableView() {
+    const table = document.createElement('table');
+    const thead = document.createElement('thead');
+    table.appendChild(thead);
+
+    const tbody = document.createElement('tbody');
+    table.appendChild(tbody);
+    tableContainer.appendChild(table);
+
+    const visibleCount = Math.ceil(tableContainer.clientHeight / rowHeight) + 5;
+
+    function createRow(index) {
+      const tr = document.createElement('tr');
+      tr.style.height = rowHeight + 'px';
+      return tr;
+    }
+
+    function renderRows(start) {
+      tbody.innerHTML = '';
+      const fragment = document.createDocumentFragment();
+
+      for (let i = start; i < start + visibleCount && i < totalRows; i++) {
+        fragment.appendChild(createRow(i));
+      }
+      tbody.appendChild(fragment);
+    }
+
+    function onScroll() {
+      const scrollTop = tableContainer.scrollTop;
+      const startRow = Math.floor(scrollTop / rowHeight);
+      renderRows(startRow);
+    }
+
+    renderRows(0);
+    tableContainer.addEventListener('scroll', onScroll);
+  }
+
+  function setupCardView() {
+    cardContainer.innerHTML = '';
+
+    for (let i = 0; i < totalRows; i++) {
+      const card = document.createElement('div');
+      card.className = 'card-item';
+      cardContainer.appendChild(card);
+    }
+  }
+
+  function renderView() {
+    if (isMobile()) {
+      tableContainer.style.display = 'none';
+      cardContainer.style.display = 'block';
+      setupCardView();
+    } else {
+      cardContainer.style.display = 'none';
+      tableContainer.style.display = 'block';
+      setupTableView();
+    }
+  }
+
+  let currentIsMobile = isMobile();
+
+  window.addEventListener('resize', () => {
+    const newIsMobile = isMobile();
+    if (newIsMobile !== currentIsMobile) {
+      currentIsMobile = newIsMobile;
+      renderView(); // sadəcə görünüşü yenilə, reload etmə
+    }
+  });

@@ -36,12 +36,10 @@
     <option value="tr">TR</option>
   </select>  
   <h1 data-i18n="pageTitle4">Group 4 Specialties 2025</h1>
-  <div class="search-bar">
+  <div class="filter-bar" style="margin-bottom: 15px;">
     <input type="text" id="search" data-i18n-placeholder="searchPlaceholder" placeholder="Ixtisas axtar...">
     <button id="searchBtn" data-i18n="searchBtn">Axtar</button>
-  </div>
-  
-  <div class="filter-bar" style="margin-bottom: 15px;">
+
     <select id="tehsilSelect">
       <option value="" data-i18n="eduAll">Full-time / Part-time</option>
       <option value="Əyani" data-i18n="eduEyani">Full-time</option>
@@ -66,19 +64,10 @@
       <option value="Mingəçevir">Mingəçevir</option>
       <option value="Lənkəran">Lənkəran</option>
     </select>
-    <div class="score-range">
-      <label for="minScore" data-i18n="minScoreLabel">Min:</label>
-      <input type="number" id="minScore" placeholder="0">
-    
-      <label for="maxScore" data-i18n="maxScoreLabel">Max:</label>
-      <input type="number" id="maxScore" placeholder="700">
-    </div> 
+      
     <p id="resultCount" style="margin-bottom: 10px; font-weight: bold;"></p>  
   </div>
-  <button id="filterToggleBtn" class="mobile-filter-toggle">
-    <img id="icon" src="filter.png" alt="Filters" width="16" class="white-icon" loading="lazy">
-    <span data-i18n="filterText">Filters</span>
-  </button>
+
   <!-- horizontal -->
   <ins class="adsbygoogle"
        style="display:block"
@@ -92,83 +81,6 @@
   <div id="table-container" class="table-view" style="height: 500px; overflow-y: auto;"></div>
   <div id="card-container" class="card-view"></div>
 </div>
-
-
-<script>
-  const totalRows = 100;
-  const rowHeight = 40;
-
-  const tableContainer = document.getElementById('table-container');
-  const cardContainer = document.getElementById('card-container');
-
-  const isMobile = () => window.innerWidth <= 768;
-
-  function setupTableView() {
-    const table = document.createElement('table');
-    const thead = document.createElement('thead');
-    table.appendChild(thead);
-
-    const tbody = document.createElement('tbody');
-    table.appendChild(tbody);
-    tableContainer.appendChild(table);
-
-    const visibleCount = Math.ceil(tableContainer.clientHeight / rowHeight) + 5;
-
-    function createRow(index) {
-      const tr = document.createElement('tr');
-      tr.style.height = rowHeight + 'px';
-      return tr;
-    }
-
-    function renderRows(start) {
-      tbody.innerHTML = '';
-      const fragment = document.createDocumentFragment();
-
-      for (let i = start; i < start + visibleCount && i < totalRows; i++) {
-        fragment.appendChild(createRow(i));
-      }
-      tbody.appendChild(fragment);
-    }
-
-
-  }
-
-  function setupCardView() {
-    cardContainer.innerHTML = '';
-
-    for (let i = 0; i < totalRows; i++) {
-      const card = document.createElement('div');
-      card.className = 'card-item';
-      cardContainer.appendChild(card);
-    }
-  }
-
-  function renderView() {
-    if (isMobile()) {
-      tableContainer.style.display = 'none';
-      cardContainer.style.display = 'block';
-      setupCardView();
-    } else {
-      cardContainer.style.display = 'none';
-      tableContainer.style.display = 'block';
-      setupTableView();
-    }
-  }
-
-  let currentIsMobile = isMobile();
-
-  window.addEventListener('resize', () => {
-    const newIsMobile = isMobile();
-    if (newIsMobile !== currentIsMobile) {
-      currentIsMobile = newIsMobile;
-      renderView(); // sadəcə görünüşü yenilə, reload etmə
-    }
-  });
-
-</script>
-
-
-
 <script src="script.js"></script>
 </body>
 </html>
